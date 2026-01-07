@@ -6,6 +6,8 @@ import postNew from "./postNew";
 import cart from "./cart";
 import payment from "./payment";
 import interview from "./interview";
+import study from "./study";
+import analytics from "./analytics";
 import express from "express";
 
 const initRoutes = (app: express.Express) => {
@@ -17,6 +19,8 @@ const initRoutes = (app: express.Express) => {
   app.use("/api/v1/cart", cart);
   app.use("/api/v1/payment", payment);
   app.use("/api/v1/interview", interview);
+  app.use("/api/v1/study", study);
+  app.use("/api/v1/analytics", analytics);
 };
 
 export default initRoutes;
