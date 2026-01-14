@@ -7,6 +7,7 @@ export interface PostNewAttributes {
   desc: string;
   content: string;
   image?: string;
+  
   category: string;
   status: "draft" | "published" | "archived";
   views: number;

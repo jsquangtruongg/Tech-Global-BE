@@ -2,7 +2,8 @@ import { Model, DataTypes, Sequelize, Optional } from "sequelize";
 
 export interface UserAttributes {
   id: number;
-  name: string;
+  firstName: string;
+  lastName: string;
   email: string;
   password?: string;
   phone?: string;
@@ -32,7 +33,8 @@ class User
   implements UserAttributes
 {
   public id!: number;
-  public name!: string;
+  public firstName!: string;
+  public lastName!: string;
   public email!: string;
   public password!: string;
   public phone!: string;
@@ -67,9 +69,15 @@ class User
           autoIncrement: true,
           primaryKey: true,
         },
-        name: {
+        firstName: {
           type: DataTypes.STRING,
           allowNull: false,
+          field: "firstName",
+        },
+        lastName: {
+          type: DataTypes.STRING,
+          allowNull: false,
+          field: "lastName",
         },
         email: {
           type: DataTypes.STRING,

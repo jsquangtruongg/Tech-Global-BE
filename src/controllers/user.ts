@@ -4,8 +4,8 @@ import { Request, Response } from "express";
 
 export const createUser = async (req: Request, res: Response) => {
   try {
-    const { email, password, name, role } = req.body;
-    if (!email || !password || !name || !role)
+    const { email, password, firstName, lastName, role } = req.body;
+    if (!email || !password || !firstName || !lastName || !role)
       return badRequest("Thiếu thông tin tạo người dùng", res);
     const response = await services.createUser(req.body);
     return res.status(200).json(response);

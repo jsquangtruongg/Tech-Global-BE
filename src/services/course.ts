@@ -31,7 +31,7 @@ export const getAllCourses = ({ page, limit, order, title, ...query }: any) =>
           {
             model: db.User,
             as: "instructor",
-            attributes: ["id", "name", "avatar"],
+            attributes: ["id", "firstName", "lastName", "avatar"],
           },
         ],
         order: [
@@ -85,7 +85,7 @@ export const getCourseDetail = (id: number) =>
           {
             model: db.User,
             as: "instructor",
-            attributes: ["id", "name", "avatar"],
+            attributes: ["id", "firstName", "lastName", "avatar"],
           },
         ],
         order: [

@@ -34,7 +34,7 @@ export const getAllPosts = ({
           {
             model: db.User,
             as: "authorData",
-            attributes: ["id", "name", "avatar"],
+            attributes: ["id", "firstName", "lastName", "avatar"],
           },
         ],
       });
@@ -72,7 +72,7 @@ export const getPostDetail = (idOrSlug: string | number) =>
           {
             model: db.User,
             as: "authorData",
-            attributes: ["id", "name", "avatar"],
+            attributes: ["id", "firstName", "lastName", "avatar"],
           },
         ],
       });
