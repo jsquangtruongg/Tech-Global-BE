@@ -1,4 +1,4 @@
-import * as services from "../services/postNew";
+import * as services from "../services/botProduct";
 import { InternalServerError, badRequest } from "../middlewares/handle_error";
 import { Request, Response } from "express";
 import { v2 as cloudinary } from "cloudinary";
@@ -9,56 +9,71 @@ cloudinary.config({
   api_secret: process.env.CLOUDINARY_SECRET,
 });
 
-export const getAllPosts = async (req: Request, res: Response) => {
+export const getAll = async (req: Request, res: Response) => {
   try {
-    const response = await services.getAllPosts(req.query);
+    const response = await services.getAllBotProducts(req.query);
     return res.status(200).json(response);
   } catch (error) {
     return InternalServerError(res);
   }
 };
 
-export const getPostDetail = async (req: Request, res: Response) => {
+export const getActive = async (_req: Request, res: Response) => {
   try {
-    const { id } = req.params;
-    const response = await services.getPostDetail(id);
+    const response = await services.getActiveBotProducts();
     return res.status(200).json(response);
   } catch (error) {
     return InternalServerError(res);
   }
 };
 
-export const createPost = async (req: Request, res: Response) => {
-  try {
-    const { id } = (req as any).user;
-    const response = await services.createPost({ ...req.body, author_id: id });
-    return res.status(200).json(response);
-  } catch (error) {
-    return InternalServerError(res);
-  }
-};
-
-export const updatePost = async (req: Request, res: Response) => {
+export const getDetail = async (req: Request, res: Response) => {
   try {
     const { id } = req.params;
-    const response = await services.updatePost(+id, req.body);
+    if (!id) return badRequest("Thiếu id gói bot", res);
+    const response = await services.getBotProductDetail(Number(id));
     return res.status(200).json(response);
   } catch (error) {
     return InternalServerError(res);
   }
 };
 
-export const deletePost = async (req: Request, res: Response) => {
+export const create = async (req: Request, res: Response) => {
+  try {
+    const { code, name, monthly_usd, yearly_usd } = req.body || {};
+    if (!code || !name || monthly_usd === undefined || yearly_usd === undefined)
+      return badRequest("Thiếu thông tin bắt buộc", res);
+
+    const response = await services.createBotProduct(req.body);
+    return res.status(200).json(response);
+  } catch (error) {
+    return InternalServerError(res);
+  }
+};
+
+export const update = async (req: Request, res: Response) => {
   try {
     const { id } = req.params;
-    const response = await services.deletePost(+id);
+    if (!id) return badRequest("Thiếu id gói bot", res);
+    const response = await services.updateBotProduct(Number(id), req.body);
     return res.status(200).json(response);
   } catch (error) {
     return InternalServerError(res);
   }
 };
 
-export const uploadPostImage = async (req: Request, res: Response) => {
+export const remove = async (req: Request, res: Response) => {
+  try {
+    const { id } = req.params;
+    if (!id) return badRequest("Thiếu id gói bot", res);
+    const response = await services.deleteBotProduct(Number(id));
+    return res.status(200).json(response);
+  } catch (error) {
+    return InternalServerError(res);
+  }
+};
+
+export const uploadBotProductImage = async (req: Request, res: Response) => {
   try {
     const file = (req as any).file;
     if (!file) {
@@ -76,7 +91,7 @@ export const uploadPostImage = async (req: Request, res: Response) => {
     const result: any = await new Promise((resolve, reject) => {
       const uploadStream = cloudinary.uploader.upload_stream(
         {
-          folder: "tech-global/posts",
+          folder: "tech-global/bot-products",
           resource_type: "image",
         },
         (error, result) => {
@@ -89,8 +104,8 @@ export const uploadPostImage = async (req: Request, res: Response) => {
 
     return res.status(200).json({
       err: 0,
-      mes: "Upload ảnh thành công",
-      mess: "Upload ảnh thành công",
+      mes: "Upload ảnh bot thành công",
+      mess: "Upload ảnh bot thành công",
       data: {
         url: result.secure_url,
         public_id: result.public_id,

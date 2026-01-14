@@ -34,6 +34,16 @@ export default {
         created_at: new Date(),
         updated_at: new Date(),
       },
+      {
+        name: "Nguyễn Quang Trường",
+        email: "nguyenqtthangbinh@gmail.com",
+        password: bcrypt.hashSync("14031609", bcrypt.genSaltSync(8)),
+        phone: "0353486203",
+        role_code: "R2",
+        avatar: "https://example.com/instructor-avatar.png",
+        created_at: new Date(),
+        updated_at: new Date(),
+      },
     ]);
   },
 

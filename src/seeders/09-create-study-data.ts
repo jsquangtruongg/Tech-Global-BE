@@ -1517,7 +1517,7 @@ export default {
           ),
           media: null,
           correct_answer: null,
-          explanation: null,
+          explanation: `Giải thích chi tiết: Đáp án đúng là "${item.options[item.correct]}". Đây là kiến thức quan trọng cần nắm vững trong phần ${name}.`,
           related_question_ids: JSON.stringify([]),
           created_at: now,
           updated_at: now,

@@ -23,7 +23,7 @@ const posts = [
       </ul>
     `,
     image:
-      "https://images.unsplash.com/photo-1610375461490-fb4133a2d096?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://res.cloudinary.com/dq4basktt/image/upload/v1768369383/tech-global/posts/eqn1tmfssinakbwuog5y.png",
     category: "Gold Trading",
     status: "published",
     views: 1250,
@@ -44,7 +44,7 @@ const posts = [
       <p>Nhà đầu tư nên cân nhắc DCA (Dollar-Cost Averaging) để giảm thiểu rủi ro biến động giá ngắn hạn. Tập trung vào các đồng coin có nền tảng công nghệ tốt.</p>
     `,
     image:
-      "https://images.unsplash.com/photo-1518546305927-5a555bb7020d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://res.cloudinary.com/dq4basktt/image/upload/v1768375409/tech-global/posts/mmsvpzfkxyzauh0kag4r.png",
     category: "Crypto",
     status: "published",
     views: 3400,
@@ -71,7 +71,7 @@ const posts = [
       <p>Đây là khái niệm cơ bản nhất nhưng cũng quan trọng nhất trong phân tích kỹ thuật.</p>
     `,
     image:
-      "https://images.unsplash.com/photo-1611974765270-ca12586343bb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://res.cloudinary.com/dq4basktt/image/upload/v1768375337/tech-global/posts/l4odoqtjvwt4zdazy7ju.jpg",
     category: "Trading Analysis",
     status: "published",
     views: 5600,
@@ -92,7 +92,7 @@ const posts = [
       <p>Luôn đặt mục tiêu lợi nhuận cao hơn rủi ro. Tỷ lệ tối thiểu nên là 1:2 hoặc 1:3.</p>
     `,
     image:
-      "https://images.unsplash.com/photo-1579532537598-459ecdaf39cc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://res.cloudinary.com/dq4basktt/image/upload/v1768371081/tech-global/posts/nqchmeophqsasnyc3lep.jpg",
     category: "Trading Analysis",
     status: "published",
     views: 2100,
@@ -110,7 +110,7 @@ const posts = [
       <p>Khi Ethereum tăng trưởng, dòng tiền thường sẽ lan tỏa sang các Altcoin khác (Altcoin Season). Đây là cơ hội lớn cho các nhà đầu tư.</p>
     `,
     image:
-      "https://images.unsplash.com/photo-1622630998477-20aa696fa4a5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://res.cloudinary.com/dq4basktt/image/upload/v1768371316/tech-global/posts/vuphnk2goyzzu4rebsp4.webp",
     category: "Crypto",
     status: "draft",
     views: 100,

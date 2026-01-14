@@ -24,6 +24,39 @@ export const createLink = async (req: Request, res: Response) => {
   }
 };
 
+export const createBotLink = async (req: Request, res: Response) => {
+  try {
+    const { id } = (req as any).user;
+    const {
+      productId,
+      product,
+      plan,
+      email,
+      tradingViewUsername,
+      tradingView,
+      couponCode,
+      coupon,
+    } = req.body || {};
+
+    const response = await services.createBotPaymentLink({
+      userId: Number(id),
+      productId: String(productId || product || ""),
+      plan,
+      email: String(email || ""),
+      tradingViewUsername: String(tradingViewUsername || tradingView || ""),
+      couponCode: String(couponCode || coupon || ""),
+    });
+    return res.status(200).json(response);
+  } catch (error: any) {
+    return res.status(500).json({
+      err: 1,
+      mess: "Internal Server Error",
+      detail: error?.message,
+      stack: error?.stack,
+    });
+  }
+};
+
 export const webhook = async (req: Request, res: Response) => {
   try {
     const response = await services.verifyWebhook(req.body);
@@ -38,6 +71,29 @@ export const status = async (req: Request, res: Response) => {
     const { id } = (req as any).user;
     const { orderCode } = req.params;
     const response = await services.getOrderStatus(id, String(orderCode));
+    return res.status(200).json(response);
+  } catch (error) {
+    return InternalServerError(res);
+  }
+};
+
+export const botStatus = async (req: Request, res: Response) => {
+  try {
+    const { id } = (req as any).user;
+    const { orderCode } = req.params;
+    const response = await services.getBotOrderStatus(
+      Number(id),
+      String(orderCode)
+    );
+    return res.status(200).json(response);
+  } catch (error) {
+    return InternalServerError(res);
+  }
+};
+
+export const botProducts = async (_req: Request, res: Response) => {
+  try {
+    const response = await services.getBotProducts();
     return res.status(200).json(response);
   } catch (error) {
     return InternalServerError(res);

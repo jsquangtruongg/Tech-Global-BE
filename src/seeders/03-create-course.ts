@@ -26,7 +26,8 @@ export default {
         id: 2,
         title: "Đầu Tư Crypto & Blockchain Toàn Tập",
         desc: "Hiểu rõ về công nghệ Blockchain, Bitcoin, Ethereum và thị trường tiền mã hóa. Hướng dẫn cách đầu tư, trade coin, staking, farming và quản lý rủi ro trong thị trường Crypto.",
-        image: "https://files.fullstack.edu.vn/f8-prod/courses/6/6.png",
+        image:
+          "https://res.cloudinary.com/dq4basktt/image/upload/v1768372694/tech-global/courses/kalfqra8n6p7kjaagjqg.jpg",
         category: "Crypto",
         level: "Intermediate",
         lessons_count: 15,
@@ -46,7 +47,7 @@ export default {
         title: "Phân Tích Kỹ Thuật Thực Chiến (Gold & Crypto)",
         desc: "Làm chủ các công cụ phân tích kỹ thuật: Candlestick, Support/Resistance, Trendline, Fibonacci, RSI, MACD, Elliott Wave. Áp dụng thực chiến trên biểu đồ Vàng và Crypto.",
         image:
-          "https://files.fullstack.edu.vn/f8-prod/courses/15/62f13d2424a47.png",
+          "https://res.cloudinary.com/dq4basktt/image/upload/v1768372582/tech-global/courses/mtgjhkbzcxggotiw4bbv.jpg",
         category: "Trading Analysis",
         level: "Advanced",
         lessons_count: 20,
@@ -65,7 +66,8 @@ export default {
         id: 4,
         title: "Giao Dịch Crypto Từ A-Z",
         desc: "Khóa học chuyên sâu về giao dịch Crypto. Hướng dẫn phân tích cơ bản, kỹ thuật, quản lý vốn và tâm lý giao dịch để kiếm lợi nhuận bền vững từ thị trường Crypto.",
-        image: "https://files.fullstack.edu.vn/f8-prod/courses/13/13.png",
+        image:
+          "https://res.cloudinary.com/dq4basktt/image/upload/v1768372392/tech-global/courses/lcooru0dvlepvxiye6oq.png",
         category: "Crypto",
         level: "Beginner",
         lessons_count: 10,
