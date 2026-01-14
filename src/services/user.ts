@@ -17,7 +17,8 @@ export const createUser = (payload: any) =>
         where: { email },
         defaults: {
           email,
-          name,
+          firstName: name.split(" ")[0],
+          lastName: name.split(" ")[1],
           password: hashPassword(password),
           role_code,
           phone,

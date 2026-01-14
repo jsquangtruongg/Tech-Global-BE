@@ -5,7 +5,8 @@ export default {
   up: async (queryInterface: QueryInterface) => {
     return queryInterface.bulkInsert("users", [
       {
-        name: "Admin User",
+        firstName: "Admin",
+        lastName: "User",
         email: "admin@gmail.com",
         password: bcrypt.hashSync("14031609", bcrypt.genSaltSync(8)),
         phone: "0987654321",
@@ -15,7 +16,8 @@ export default {
         updated_at: new Date(),
       },
       {
-        name: "Regular User",
+        firstName: "Regular",
+        lastName: "User",
         email: "user@gmail.com",
         password: bcrypt.hashSync("14031609", bcrypt.genSaltSync(8)),
         phone: "0987654322",
@@ -25,7 +27,8 @@ export default {
         updated_at: new Date(),
       },
       {
-        name: "Instructor User",
+        firstName: "Instructor",
+        lastName: "User",
         email: "instructor@gmail.com",
         password: bcrypt.hashSync("14031609", bcrypt.genSaltSync(8)),
         phone: "0987654323",
@@ -35,7 +38,8 @@ export default {
         updated_at: new Date(),
       },
       {
-        name: "Nguyễn Quang Trường",
+        firstName: "Nguyễn Quang",
+        lastName: "Trường",
         email: "nguyenqtthangbinh@gmail.com",
         password: bcrypt.hashSync("14031609", bcrypt.genSaltSync(8)),
         phone: "0353486203",
