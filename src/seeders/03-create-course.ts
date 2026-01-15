@@ -7,7 +7,7 @@ export default {
         id: 1,
         title: "Giao Dịch Vàng Phái Sinh (XAU/USD) Từ A-Z",
         desc: "Khóa học chuyên sâu về giao dịch Vàng (Gold Trading). Hướng dẫn phân tích cơ bản, kỹ thuật, quản lý vốn và tâm lý giao dịch để kiếm lợi nhuận bền vững từ thị trường Vàng.",
-        image: "https://files.fullstack.edu.vn/f8-prod/courses/13/13.png",
+        image: "https://res.cloudinary.com/dq4basktt/image/upload/v1768372834/tech-global/courses/yum2ffrcd7ptkncunw16.png",
         category: "Gold Trading",
         level: "Beginner",
         lessons_count: 10,

@@ -28,6 +28,8 @@ const posts = [
     status: "published",
     views: 1250,
     author_id: 1,
+    created_at: new Date(),
+    updated_at: new Date(),
   },
   {
     title: "Bitcoin Halving 2024: Cơ hội hay rủi ro?",
@@ -49,6 +51,8 @@ const posts = [
     status: "published",
     views: 3400,
     author_id: 1,
+    created_at: new Date(),
+    updated_at: new Date(),
   },
   {
     title: "Top 5 chỉ báo kỹ thuật quan trọng cho người mới",
@@ -76,6 +80,8 @@ const posts = [
     status: "published",
     views: 5600,
     author_id: 1,
+    created_at: new Date(),
+    updated_at: new Date(),
   },
   {
     title: "Hướng dẫn quản lý vốn trong giao dịch",
@@ -97,6 +103,8 @@ const posts = [
     status: "published",
     views: 2100,
     author_id: 1,
+    created_at: new Date(),
+    updated_at: new Date(),
   },
   {
     title: "Ethereum ETF: Bước ngoặt cho thị trường Altcoin?",
@@ -115,6 +123,8 @@ const posts = [
     status: "draft",
     views: 100,
     author_id: 1,
+    created_at: new Date(),
+    updated_at: new Date(),
   },
 ];
 
