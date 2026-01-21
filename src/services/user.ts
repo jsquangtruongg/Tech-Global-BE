@@ -136,3 +136,73 @@ export const getAllUsers = ({ page, limit, order, name, ...query }: any) =>
       reject(error);
     }
   });
+
+export const recordActivity = (
+  userId: number,
+  payload: {
+    lastActiveAt: Date;
+    lastDevice: string;
+    lastOs?: string;
+    lastBrowser?: string;
+  },
+) =>
+  new Promise(async (resolve, reject) => {
+    try {
+      await db.UserActivity.create({
+        user_id: userId,
+        device: payload.lastDevice,
+        os: payload.lastOs,
+        browser: payload.lastBrowser,
+        ts: payload.lastActiveAt,
+      });
+      const response = await db.User.update(
+        {
+          lastActiveAt: payload.lastActiveAt,
+          lastDevice: payload.lastDevice,
+          lastOs: payload.lastOs,
+          lastBrowser: payload.lastBrowser,
+        },
+        { where: { id: userId } },
+      );
+      resolve({
+        err: response[0] > 0 ? 0 : 1,
+        mess: response[0] > 0 ? "Đã ghi nhận hoạt động" : "Không thể cập nhật",
+      });
+    } catch (error) {
+      reject(error);
+    }
+  });
+
+export const getActivityStats = () =>
+  new Promise(async (resolve, reject) => {
+    try {
+      const since = new Date(Date.now() - 24 * 3600 * 1000);
+      const events = await db.UserActivity.findAll({
+        where: { ts: { [Op.gte]: since } },
+        attributes: ["ts", "device"],
+        raw: true,
+      });
+      const hours: { hour: string; count: number }[] = [];
+      const hourBuckets: Record<string, number> = {};
+      const byDevice = { Desktop: 0, Mobile: 0, Tablet: 0 };
+      events.forEach((ev: any) => {
+        const d = new Date(ev.ts);
+        const h = String(d.getHours()).padStart(2, "0") + ":00";
+        hourBuckets[h] = (hourBuckets[h] || 0) + 1;
+        if (ev.device === "Desktop") byDevice.Desktop++;
+        else if (ev.device === "Mobile") byDevice.Mobile++;
+        else if (ev.device === "Tablet") byDevice.Tablet++;
+      });
+      for (let h = 0; h < 24; h++) {
+        const label = `${String(h).padStart(2, "0")}:00`;
+        hours.push({ hour: label, count: hourBuckets[label] || 0 });
+      }
+      resolve({
+        err: 0,
+        mess: "ok",
+        data: { byHour: hours, byDevice },
+      });
+    } catch (error) {
+      reject(error);
+    }
+  });
