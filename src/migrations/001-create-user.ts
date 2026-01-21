@@ -45,6 +45,22 @@ export default {
       refresh_token: {
         type: DataTypes.STRING,
       },
+      last_active_at: {
+        allowNull: true,
+        type: DataTypes.DATE,
+      },
+      last_device: {
+        allowNull: true,
+        type: DataTypes.STRING,
+      },
+      last_os: {
+        allowNull: true,
+        type: DataTypes.STRING,
+      },
+      last_browser: {
+        allowNull: true,
+        type: DataTypes.STRING,
+      },
       created_at: {
         allowNull: false,
         type: DataTypes.DATE,

@@ -11,6 +11,8 @@ const router = express.Router();
 router.use(verifyToken);
 router.get("/", controllers.getCurrent);
 router.put("/", controllers.updateUser);
+router.post("/activity", controllers.recordActivity);
+router.get("/activity/stats", isAdmin, controllers.getActivityStats);
 
 // Admin routes
 router.post("/", isAdmin, controllers.createUser);

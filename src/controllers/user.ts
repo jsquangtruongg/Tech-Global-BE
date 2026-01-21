@@ -81,3 +81,31 @@ export const updateUserByAdmin = async (req: Request, res: Response) => {
     return InternalServerError(res);
   }
 };
+
+export const recordActivity = async (req: Request, res: Response) => {
+  try {
+    const authUserId = (req as any).user?.id;
+    const { userId, timestamp, device, os, browser } = req.body || {};
+    const id = authUserId || userId;
+    if (!id || !timestamp || !device)
+      return badRequest("Thiếu thông tin hoạt động", res);
+    const response = await services.recordActivity(+id, {
+      lastActiveAt: new Date(timestamp),
+      lastDevice: device,
+      lastOs: os,
+      lastBrowser: browser,
+    });
+    return res.status(200).json(response);
+  } catch (error) {
+    return InternalServerError(res);
+  }
+};
+
+export const getActivityStats = async (_req: Request, res: Response) => {
+  try {
+    const response = await services.getActivityStats();
+    return res.status(200).json(response);
+  } catch (error) {
+    return InternalServerError(res);
+  }
+};

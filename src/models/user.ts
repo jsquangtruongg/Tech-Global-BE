@@ -11,22 +11,25 @@ export interface UserAttributes {
   avatar?: string;
   filename?: string;
   refreshToken?: string;
+  lastActiveAt?: Date;
+  lastDevice?: string;
+  lastOs?: string;
+  lastBrowser?: string;
   createdAt?: Date;
   updatedAt?: Date;
 }
 
-export interface UserCreationAttributes
-  extends Optional<
-    UserAttributes,
-    | "id"
-    | "avatar"
-    | "phone"
-    | "filename"
-    | "refreshToken"
-    | "role_code"
-    | "createdAt"
-    | "updatedAt"
-  > {}
+export interface UserCreationAttributes extends Optional<
+  UserAttributes,
+  | "id"
+  | "avatar"
+  | "phone"
+  | "filename"
+  | "refreshToken"
+  | "role_code"
+  | "createdAt"
+  | "updatedAt"
+> {}
 
 class User
   extends Model<UserAttributes, UserCreationAttributes>
@@ -108,6 +111,26 @@ class User
         refreshToken: {
           type: DataTypes.STRING,
         },
+        lastActiveAt: {
+          type: DataTypes.DATE,
+          field: "last_active_at",
+          allowNull: true,
+        },
+        lastDevice: {
+          type: DataTypes.STRING,
+          field: "last_device",
+          allowNull: true,
+        },
+        lastOs: {
+          type: DataTypes.STRING,
+          field: "last_os",
+          allowNull: true,
+        },
+        lastBrowser: {
+          type: DataTypes.STRING,
+          field: "last_browser",
+          allowNull: true,
+        },
       },
       {
         sequelize,
@@ -115,7 +138,7 @@ class User
         tableName: "users",
         timestamps: true,
         underscored: true,
-      }
+      },
     );
     return User;
   }
