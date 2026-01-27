@@ -10,6 +10,8 @@ import study from "./study";
 import analytics from "./analytics";
 import botProduct from "./botProduct";
 import botOrder from "./botOrder";
+import psychology from "./psychology";
+import myDiary from "./My-Diary";
 import express from "express";
 
 const initRoutes = (app: express.Express) => {
@@ -25,6 +27,8 @@ const initRoutes = (app: express.Express) => {
   app.use("/api/v1/analytics", analytics);
   app.use("/api/v1/bot-products", botProduct);
   app.use("/api/v1/bot-orders", botOrder);
+  app.use("/api/v1/psychology", psychology);
+  app.use("/api/v1/my-diary", myDiary);
 };
 
 export default initRoutes;
