@@ -6,10 +6,10 @@ import { isAdmin } from "../middlewares/verify_roles";
 const router = express.Router();
 
 router.use(verifyToken);
-router.use(isAdmin);
-router.get("/admin", controllers.adminList);
-router.get("/admin/:id", controllers.adminDetail);
-router.delete("/admin/:id", controllers.adminDelete);
+
+router.get("/admin", isAdmin, controllers.adminList);
+router.get("/admin/:id", isAdmin, controllers.adminDetail);
+router.delete("/admin/:id", isAdmin, controllers.adminDelete);
 
 // User routes (sau admin để tránh /:id bắt nhầm '/admin')
 router.get("/", controllers.getMyDiaries);
