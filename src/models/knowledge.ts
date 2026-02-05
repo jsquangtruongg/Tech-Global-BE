@@ -1,32 +1,28 @@
 import { Model, DataTypes, Sequelize, Optional } from "sequelize";
 
-export type KnowledgeTopic =
-  | "METHODS"
-  | "PSYCHOLOGY"
-  | "RISK"
-  | "CANDLESTICKS"
-  | "INDICATORS"
-  | "SUPPORT";
-export type KnowledgeLevel = "BASIC" | "ADVANCED";
-
 export interface KnowledgeAttributes {
   id: string;
   title: string;
-  topic: KnowledgeTopic;
+  topic:
+    | "METHODS"
+    | "PSYCHOLOGY"
+    | "RISK"
+    | "CANDLESTICKS"
+    | "INDICATORS"
+    | "SUPPORT";
   summary: string;
-  content: string;
-  level: KnowledgeLevel;
-  tags?: any;
-  related?: any;
+  content?: string;
+  level: "BASIC" | "ADVANCED";
+  tags: string[];
+  related?: string[];
   createdAt?: Date;
   updatedAt?: Date;
 }
 
-export interface KnowledgeCreationAttributes
-  extends Optional<
-    KnowledgeAttributes,
-    "tags" | "related" | "createdAt" | "updatedAt"
-  > {}
+export interface KnowledgeCreationAttributes extends Optional<
+  KnowledgeAttributes,
+  "createdAt" | "updatedAt"
+> {}
 
 class Knowledge
   extends Model<KnowledgeAttributes, KnowledgeCreationAttributes>
@@ -34,16 +30,20 @@ class Knowledge
 {
   public id!: string;
   public title!: string;
-  public topic!: KnowledgeTopic;
+  public topic!:
+    | "METHODS"
+    | "PSYCHOLOGY"
+    | "RISK"
+    | "CANDLESTICKS"
+    | "INDICATORS"
+    | "SUPPORT";
   public summary!: string;
   public content!: string;
-  public level!: KnowledgeLevel;
-  public tags?: any;
-  public related?: any;
+  public level!: "BASIC" | "ADVANCED";
+  public tags!: string[];
+  public related!: string[];
   public readonly createdAt!: Date;
   public readonly updatedAt!: Date;
-
-  static associate(_models: any) {}
 
   static initModel(sequelize: Sequelize): typeof Knowledge {
     Knowledge.init(
@@ -97,11 +97,6 @@ class Knowledge
         tableName: "knowledge_articles",
         timestamps: true,
         underscored: true,
-        indexes: [
-          { fields: ["topic"] },
-          { fields: ["level"] },
-          { fields: ["updated_at"] },
-        ],
       },
     );
     return Knowledge;

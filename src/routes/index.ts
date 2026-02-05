@@ -29,8 +29,8 @@ const initRoutes = (app: express.Express) => {
   app.use("/api/v1/bot-products", botProduct);
   app.use("/api/v1/bot-orders", botOrder);
   app.use("/api/v1/psychology", psychology);
-  app.use("/api/v1/knowledge", knowledge);
   app.use("/api/v1/my-diary", myDiary);
+  app.use("/api/v1/knowledge", knowledge);
 };
 
 export default initRoutes;
