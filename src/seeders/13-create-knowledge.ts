@@ -768,180 +768,77 @@ module.exports = {
         updated_at: now,
       },
       {
-        id: "fomo",
+        id: "trading-psychology",
         topic: "PSYCHOLOGY",
-        title: "FOMO",
-        summary: "Nỗi sợ bỏ lỡ khiến vào lệnh không theo kế hoạch.",
-        content: `
-<h2>FOMO là gì trong Trading?</h2>
+        title: "FOMO - Nỗi Sợ Bỏ Lỡ Cơ Hội",
+        summary: "Kẻ thù số 1 của Trader: Mua đỉnh, bán đáy vì sợ lỡ tàu.",
+        content: `<h2>FOMO (Fear Of Missing Out) là gì?</h2>
 <p>
-  <strong>FOMO (Fear Of Missing Out)</strong> là trạng thái tâm lý <strong>sợ bỏ lỡ cơ hội</strong>.
-  Trong Trading, FOMO xảy ra khi bạn nhìn thấy giá tăng mạnh (hoặc giảm mạnh) và cảm thấy
-  một sự thôi thúc cực lớn phải vào lệnh ngay lập tức vì nghĩ rằng:
-  <em>"Nếu không vào bây giờ, mình sẽ mất cơ hội kiếm tiền"</em>.
+  <strong>FOMO</strong> là trạng thái tâm lý <strong>sợ bỏ lỡ cơ hội</strong>, khiến Trader vào lệnh một cách bốc đồng khi thấy giá tăng mạnh hoặc giảm mạnh, bỏ qua mọi nguyên tắc giao dịch và quản lý rủi ro.
 </p>
-
 <p>
-  FOMO không phải là vấn đề về kiến thức, mà là <strong>vấn đề về tâm lý con người</strong>.
-  Ngay cả những Trader có kinh nghiệm vẫn có thể FOMO nếu không giữ được kỷ luật.
-  Đây chính là một trong những nguyên nhân lớn nhất khiến Trader <strong>mua đỉnh – bán đáy</strong>.
+  Đây là nguyên nhân chính khiến Trader <strong>mua đúng đỉnh</strong> và <strong>bán đúng đáy</strong>. Khi đám đông hưng phấn nhất cũng là lúc cá mập chốt lời.
 </p>
 
 <img src="https://cdn2.fptshop.com.vn/unsafe/Uploads/images/tin-tuc/164303/Originals/fomo-la-gi-5.jpg" alt="Tâm lý FOMO trong Trading" />
 
 <hr/>
 
-<h3>FOMO hoạt động như thế nào trong não bộ?</h3>
-<p>
-  Khi bạn thấy giá chạy mạnh, não bộ sẽ kích hoạt <strong>cảm xúc</strong> thay vì <strong>lý trí</strong>.
-  Lúc này:
-</p>
+<h3>Biểu hiện của FOMO</h3>
 <ul>
-  <li>Não tiết ra dopamine (chất gây hưng phấn).</li>
-  <li>Khả năng phân tích logic bị suy giảm.</li>
-  <li>Bạn chỉ tập trung vào <strong>lợi nhuận tiềm năng</strong> và bỏ qua <strong>rủi ro</strong>.</li>
+  <li>
+    <strong>Vào lệnh đuổi giá:</strong><br/>
+    Thấy nến xanh dài là nhảy vào Buy ngay lập tức vì sợ giá chạy mất, không chờ đóng nến hay hồi về.
+  </li>
+  <li>
+    <strong>Tiếc nuối quá mức:</strong><br/>
+    Dằn vặt bản thân khi bỏ lỡ một con sóng, sau đó cố gắng tìm mọi cách vào lệnh để "gỡ gạc" hoặc "ăn phần còn lại".
+  </li>
+  <li>
+    <strong>Vào lệnh khối lượng lớn:</strong><br/>
+    Muốn kiếm nhanh để bù đắp cho cơ hội đã lỡ, dẫn đến All-in hoặc đánh volume lớn.
+  </li>
+  <li>
+    <strong>Không có Stop Loss:</strong><br/>
+    Vì vào lệnh vội vàng nên không kịp tính toán điểm cắt lỗ, hoặc cố tình không đặt vì tin rằng giá sẽ còn chạy tiếp.
+  </li>
 </ul>
-
-<p>
-  Kết quả là bạn vào lệnh <strong>không có kế hoạch</strong>,
-  không Stop Loss rõ ràng, và đặt cược vào hy vọng thay vì xác suất.
-</p>
-
-<hr/>
-
-<h3>Vòng lặp tâm lý "chết người" của FOMO</h3>
-<p>Bạn có thấy mình trong kịch bản quen thuộc này không?</p>
-
-<h3>Vòng lặp tâm lý "chết người" của FOMO</h3>
-
-<ol>
-  <li>
-    <strong>Giai đoạn 1 – Quan sát:</strong><br/>
-    Giá bắt đầu tăng nhẹ sau một thời gian tích lũy hoặc điều chỉnh. 
-    Bạn nhận thấy thị trường có dấu hiệu chuyển động nhưng vẫn còn khá bình tĩnh.
-    Trong đầu xuất hiện suy nghĩ: 
-    <em>"Chắc chỉ là một nhịp hồi kỹ thuật thôi, chưa vội"</em>.
-    Bạn chọn đứng ngoài và tiếp tục quan sát.
-  </li>
-
-  <li>
-    <strong>Giai đoạn 2 – Sốt ruột:</strong><br/>
-    Giá tiếp tục tăng mạnh hơn, phá qua các vùng cản nhỏ.
-    Lúc này, cảm giác tiếc nuối bắt đầu xuất hiện:
-    <em>"Giá mà mình vào sớm hơn một chút"</em>.
-    Bạn bắt đầu liên tục nhìn chart, so sánh với các lệnh “giá như” trong đầu,
-    nhưng vẫn chưa thực sự dám hành động.
-  </li>
-
-  <li>
-    <strong>Giai đoạn 3 – Cao trào:</strong><br/>
-    Giá tăng dựng đứng, nến lớn liên tục xuất hiện.
-    Tin tức tích cực tràn ngập, mạng xã hội và hội nhóm bắt đầu khoe lợi nhuận.
-    Những câu như <em>"Con này còn bay xa"</em>, <em>"Mục tiêu X2, X3"</em> xuất hiện khắp nơi.
-    Tâm lý đám đông tác động mạnh, khiến bạn tin rằng mình đang bỏ lỡ một cơ hội lớn.
-  </li>
-
-  <li>
-    <strong>Giai đoạn 4 – Hành động:</strong><br/>
-    Không chịu được áp lực tâm lý nữa, bạn quyết định <strong>BUY ngay lập tức</strong>
-    mà không chờ điểm hồi hay tín hiệu xác nhận rõ ràng.
-    Lệnh được vào trong trạng thái cảm xúc cao,
-    Stop Loss đặt qua loa hoặc thậm chí không đặt,
-    với niềm tin rằng: <em>"Nó chắc chắn sẽ còn tăng"</em>.
-  </li>
-
-  <li>
-    <strong>Giai đoạn 5 – Trừng phạt:</strong><br/>
-    Ngay sau khi bạn vào lệnh, thị trường bắt đầu chững lại rồi quay đầu điều chỉnh.
-    Giá giảm nhanh khiến bạn hoảng loạn,
-    từ hy vọng chuyển sang sợ hãi trong thời gian rất ngắn.
-    Cuối cùng, bạn cắt lỗ trong trạng thái đau đớn và tự trách bản thân,
-    đúng ngay tại vùng đáy của nhịp điều chỉnh.
-  </li>
-</ol>
-
-<p>
-  Vòng lặp này có thể lặp đi lặp lại nhiều lần,
-  bào mòn tài khoản và làm trader mất dần sự tự tin,
-  dù bản chất thị trường vẫn đang có rất nhiều cơ hội tốt hơn.
-</p>
-
 
 <img src="https://cdn.hdbank.com.vn/hdbank-file/news/editor/p97JuMb4k5mMhHAYSOC620250117103118/fomolagi1_1737084784525.jpg" alt="Vòng lặp FOMO Trading" />
 
 <hr/>
 
-<h3>Dấu hiệu cho thấy bạn đang bị FOMO</h3>
-<ul>
-  <li>Vào lệnh vì "sợ trễ" chứ không vì tín hiệu.</li>
-  <li>Không xác định rõ Stop Loss trước khi vào lệnh.</li>
-  <li>Nhìn chart khung nhỏ liên tục (M1, M5).</li>
-  <li>Vừa thua lệnh trước đó và muốn gỡ ngay.</li>
-  <li>Quy mô lot lớn hơn bình thường.</li>
-</ul>
+<h3>Case Study: Đu đỉnh kinh điển</h3>
+<p>
+  Giá Bitcoin tăng từ 40k lên 50k. Trader A đứng ngoài quan sát.
+  Giá lên 60k, Trader A bắt đầu sốt ruột nhưng vẫn nghi ngờ.
+  Giá lên 69k, tin tức tốt tràn ngập, ai cũng khoe lãi. Trader A không chịu nổi nữa, nghĩ rằng "nó sẽ lên 100k".
+  A quyết định All-in Buy tại 69k.
+  Ngay sau đó, giá quay đầu giảm mạnh. A hoảng loạn cắt lỗ tại 50k.
+</p>
+<p><em>📌 Bài học: Khi tin tức tốt ra nhiều nhất và đám đông hưng phấn nhất, đó thường là vùng đỉnh.</em></p>
 
 <hr/>
 
-<h3>Tại sao Trader rất dễ bị FOMO?</h3>
+<h3>Checklist "Cai nghiện" FOMO</h3>
 <ul>
-  <li><strong>Lòng tham (Greed):</strong> Muốn giàu nhanh, muốn ăn trọn mọi con sóng.</li>
-  <li><strong>Thiếu kế hoạch giao dịch:</strong> Không có điểm vào – ra cố định.</li>
-  <li><strong>So sánh bản thân:</strong> Thấy người khác khoe lợi nhuận.</li>
-  <li><strong>Hiểu sai về thị trường:</strong> Nghĩ rằng cơ hội chỉ đến một lần.</li>
+  <li>Lệnh này có nằm trong Kế hoạch giao dịch (Trading Plan) không?</li>
+  <li>Có setup (tín hiệu) rõ ràng không hay chỉ là cảm giác?</li>
+  <li>Nếu vào lệnh ở đây, Stop Loss đặt ở đâu? (Nếu SL quá xa → Bỏ qua).</li>
+  <li>Mình đang vào lệnh vì tín hiệu hay vì sợ lỡ tàu?</li>
 </ul>
 
-<hr/>
-
-<h3>5 Cách kiểm soát và "cai nghiện" FOMO</h3>
-
-<h4>1. Chấp nhận JOMO (Joy Of Missing Out)</h4>
 <p>
-  JOMO là <strong>niềm vui khi bỏ lỡ</strong>.
-  Hãy nhớ rằng:
-  <em>Thị trường không bao giờ thiếu cơ hội, chỉ thiếu người đủ kiên nhẫn</em>.
-</p>
-
-<h4>2. Luôn có kế hoạch trước khi mở lệnh</h4>
-<ul>
-  <li>Điểm vào ở đâu?</li>
-  <li>Stop Loss ở đâu?</li>
-  <li>RR có tối thiểu 1:2 không?</li>
-</ul>
-<p>
-  Nếu không trả lời được 3 câu hỏi trên → <strong>KHÔNG ĐƯỢC VÀO LỆNH</strong>.
-</p>
-
-<h4>3. Giao dịch khung thời gian phù hợp</h4>
-<p>
-  Nếu bạn Trade H1 – H4, đừng nhìn M1 – M5.
-  Chart càng nhỏ, FOMO càng lớn.
-</p>
-
-<h4>4. Giới hạn số lệnh mỗi ngày</h4>
-<p>
-  Ví dụ: tối đa 2 lệnh/ngày.
-  Khi đạt giới hạn → dừng giao dịch.
-</p>
-
-<h4>5. Ghi nhật ký giao dịch (Trading Journal)</h4>
-<p>
-  Mỗi lần FOMO và thua lỗ, hãy ghi lại cảm xúc và lý do.
-  Bạn sẽ dần nhận ra FOMO luôn có cùng một kịch bản.
-</p>
-
-<hr/>
-
-<p><strong>Kết luận:</strong><br/>
-  Trading không phải là trò chơi phản xạ nhanh,
-  mà là cuộc chơi của <strong>sự kiên nhẫn và kỷ luật</strong>.
-  Người sống sót lâu nhất trên thị trường
-  không phải là người vào lệnh nhiều nhất,
-  mà là người biết <em>khi nào KHÔNG nên giao dịch</em>.
+  <em>
+  📌 <strong>Ghi nhớ:</strong><br/>
+  Thị trường giống như xe buýt, chuyến này đi qua sẽ có chuyến khác tới.<br/>
+  Thà nuốt nước miếng (tiếc) còn hơn nuốt nước mắt (lỗ).
+  </em>
 </p>
 `,
-        level: "BASIC",
-        tags: JSON.stringify(["Dễ sai"]),
-        related: JSON.stringify(["Checklist vào lệnh", "Nhật ký cảm xúc"]),
+        level: "ADVANCED",
+        tags: JSON.stringify(["Tâm lý", "FOMO", "Cảm xúc"]),
+        related: JSON.stringify(["Kỷ luật", "Checklist"]),
         created_at: now,
         updated_at: now,
       },
@@ -951,120 +848,164 @@ module.exports = {
         title: "FUD - Sợ Hãi, Nghi Ngờ, Bất An",
         summary:
           "Trạng thái tâm lý khiến bạn luôn nghi ngờ và lo sợ về thị trường.",
-        content: `<h2>FUD là gì?</h2>
+        content: `<h2>FUD là gì trong Trading?</h2>
+
 <p>
 <strong>FUD (Fear – Uncertainty – Doubt)</strong> là trạng thái tâm lý gồm 
-<strong>Sợ hãi – Nghi ngờ – Bất an</strong>, khiến Trader và nhà đầu tư đưa ra 
-quyết định thiếu lý trí.
-</p>
-<p>
-Trong thị trường tài chính, FUD thường không đến một cách ngẫu nhiên. 
-Nó thường được <strong>khuếch đại bởi tin tức, mạng xã hội, KOL, tiêu đề giật gân</strong>, 
-nhằm tạo ra sự hoảng loạn, từ đó buộc đám đông bán ra tài sản ở mức giá bất lợi.
-</p>
-<p>
-Nói cách khác: <em>FUD không đánh vào biểu đồ, mà đánh thẳng vào tâm lý con người</em>.
+<strong>Sợ hãi – Bất định – Nghi ngờ</strong>, khiến Trader đưa ra quyết định
+vội vàng, thiếu logic và đi ngược lại kế hoạch giao dịch ban đầu.
 </p>
 
-<img src="https://images.unsplash.com/photo-1504639725590-34d0984388bd?auto=format&fit=crop&w=800" alt="FUD trong đầu tư">
+<p>
+Trong thị trường tài chính, FUD hiếm khi xuất hiện một cách ngẫu nhiên.
+Nó thường được <strong>khuếch đại bởi tin tức, mạng xã hội, tiêu đề giật gân,
+KOL, group chat</strong> nhằm tạo ra sự hoảng loạn trong đám đông.
+</p>
 
-<h3>Ba thành phần của FUD</h3>
+<p>
+📌 <em>FUD không đánh vào biểu đồ – nó đánh thẳng vào cảm xúc con người.</em>
+</p>
+
+<img src="https://simg.zalopay.com.vn/zlp-website/assets/fud_la_gi_1_756e927995.jpg"
+alt="FUD trong đầu tư tài chính">
+
+<hr/>
+
+<h3>Ba thành phần cấu thành FUD</h3>
+
+<img src="https://hoclamtrader.com/wp-content/uploads/2025/03/image-14.png"
+alt="Fear Uncertainty Doubt trong trading">
+
 <ul>
   <li>
-    <strong>Fear (Sợ hãi):</strong> 
-    Nỗi sợ mất tiền, sợ thị trường sập, sợ tài khoản về 0.
+    <strong>Fear (Sợ hãi):</strong><br/>
+    Sợ mất tiền, sợ thị trường sập, sợ tài khoản cháy,
+    sợ sai thêm sau chuỗi thua lỗ.
   </li>
   <li>
-    <strong>Uncertainty (Bất định):</strong> 
-    Không chắc chắn về tương lai, nghi ngờ xu hướng, nghi ngờ quyết định của chính mình.
+    <strong>Uncertainty (Bất định):</strong><br/>
+    Không chắc xu hướng còn tiếp diễn hay không,
+    không biết nên giữ hay thoát lệnh.
   </li>
   <li>
-    <strong>Doubt (Nghi ngờ):</strong> 
-    Nghi ngờ hệ thống giao dịch, nghi ngờ phân tích kỹ thuật, nghi ngờ bản thân.
+    <strong>Doubt (Nghi ngờ):</strong><br/>
+    Nghi ngờ hệ thống giao dịch, nghi ngờ phân tích,
+    nghi ngờ chính bản thân mình.
   </li>
 </ul>
 
+<hr/>
+
 <h3>Biểu hiện phổ biến của FUD</h3>
+
+<img src="https://colombia.unir.net/wp-content/uploads/sites/4/2024/11/Trading-que-es-y-como-funciona2.jpg"
+alt="Trader lo lắng vì FUD">
+
 <ul>
   <li>
-    <strong>Vừa vào lệnh đã lo lắng:</strong> 
-    Mặc dù setup đúng kế hoạch, nhưng tâm trí liên tục nghĩ đến kịch bản xấu nhất.
+    <strong>Vừa vào lệnh đã bất an:</strong><br/>
+    Setup đúng plan nhưng tâm trí luôn nghĩ đến kịch bản xấu nhất.
   </li>
   <li>
-    <strong>Phản ứng quá mức với tin tức:</strong> 
-    Chỉ cần thấy một tin xấu trên Facebook, Telegram, Twitter là đóng lệnh ngay, 
-    dù chưa kiểm chứng.
+    <strong>Phản ứng quá mức với tin tức:</strong><br/>
+    Chỉ cần thấy một tin xấu trên Facebook, Telegram là thoát lệnh ngay,
+    dù cấu trúc thị trường chưa hề bị phá.
   </li>
   <li>
-    <strong>Kiểm tra giá liên tục:</strong> 
-    Mỗi vài phút lại nhìn chart, khiến cảm xúc bị dao động theo từng cây nến nhỏ.
+    <strong>Kiểm tra giá liên tục:</strong><br/>
+    Mỗi vài phút lại mở chart, khiến cảm xúc dao động theo từng cây nến nhỏ.
   </li>
   <li>
-    <strong>Mất niềm tin vào hệ thống:</strong> 
+    <strong>Mất niềm tin vào hệ thống:</strong><br/>
     Một vài lệnh thua khiến bạn nghi ngờ cả hệ thống đã backtest hàng trăm lần.
   </li>
 </ul>
 
+<hr/>
+
 <h3>Hậu quả của FUD trong Trading</h3>
+
+<img src="https://gldt.mql5.vn/content/images/2024/10/z5885456239491_df18e8664bdbd027d9430a5ba72d6ef7.jpg"
+alt="Panic sell vì FUD">
+
 <ul>
   <li>
-    <strong>Chốt non liên tục:</strong> 
-    Bán ra ngay trước khi thị trường chạy mạnh theo hướng dự đoán.
+    <strong>Chốt non liên tục:</strong><br/>
+    Thoát lệnh ngay trước khi giá chạy mạnh theo đúng hướng dự đoán.
   </li>
   <li>
-    <strong>Panic Sell – Bán đúng đáy:</strong> 
-    Hoảng loạn bán tháo khi giá giảm mạnh, đúng lúc dòng tiền lớn bắt đầu mua vào.
+    <strong>Panic Sell – Bán đúng đáy:</strong><br/>
+    Hoảng loạn bán tháo khi giá giảm mạnh,
+    đúng lúc dòng tiền lớn bắt đầu mua vào.
   </li>
   <li>
-    <strong>Lợi nhuận nhỏ – Thua lỗ lớn:</strong> 
-    Lãi thì chốt sớm, lỗ thì gồng vì hy vọng → Tài khoản suy giảm dần.
+    <strong>Lãi nhỏ – Lỗ lớn:</strong><br/>
+    Lãi thì sợ mất nên chốt sớm, lỗ thì gồng vì hy vọng → tài khoản teo dần.
   </li>
   <li>
-    <strong>Rối loạn tâm lý giao dịch:</strong> 
-    Mất sự nhất quán, mỗi lệnh một kiểu, không còn tuân thủ plan.
+    <strong>Mất kỷ luật giao dịch:</strong><br/>
+    Mỗi lệnh một kiểu, không còn tuân thủ Trading Plan.
   </li>
 </ul>
 
-<h3>Cách vượt qua FUD</h3>
+<hr/>
+
+<h3>Cách vượt qua FUD hiệu quả</h3>
+
+<img src="https://fxscouts.com/wp-content/uploads/sites/20/2019/09/trade-types-trade-open_zec8wf.jpg"
+alt="Tin vào kế hoạch giao dịch">
+
 <ol>
   <li>
-    <strong>Kiểm chứng thông tin:</strong> 
-    Đừng tin ngay vào tiêu đề giật gân. Hãy tự hỏi:
-    <em>"Tin này ảnh hưởng thực sự đến cung – cầu hay chỉ là nhiễu tâm lý?"</em>
+    <strong>Kiểm chứng thông tin:</strong><br/>
+    Đừng tin ngay vào tiêu đề giật gân.
+    Hãy hỏi: <em>“Tin này có thực sự ảnh hưởng đến cung – cầu hay chỉ là nhiễu tâm lý?”</em>
   </li>
   <li>
-    <strong>Tin vào Trading Plan:</strong> 
-    Nếu lý do vào lệnh vẫn còn hiệu lực và giá chưa chạm SL, 
+    <strong>Tin vào Trading Plan:</strong><br/>
+    Nếu lý do vào lệnh vẫn còn hiệu lực và giá chưa chạm SL,
     thì không có lý do gì để thoát lệnh chỉ vì sợ.
   </li>
   <li>
-    <strong>Giảm khối lượng giao dịch:</strong> 
-    FUD thường xuất hiện khi rủi ro vượt quá sức chịu đựng tâm lý. 
-    Hãy giảm volume xuống mức bạn có thể <em>ngủ ngon</em>.
+    <strong>Giảm khối lượng giao dịch:</strong><br/>
+    FUD xuất hiện khi rủi ro vượt quá sức chịu đựng tâm lý.
+    Hãy giảm volume xuống mức bạn có thể ngủ ngon.
   </li>
   <li>
-    <strong>Hạn chế tiêu thụ tin tức nhiễu:</strong> 
-    Trong ngắn hạn, <strong>Price Action phản ánh tất cả</strong>. 
+    <strong>Hạn chế tiêu thụ tin tức nhiễu:</strong><br/>
+    Trong ngắn hạn, <strong>Price Action phản ánh tất cả</strong>.
     Biểu đồ luôn trung thực hơn cảm xúc đám đông.
   </li>
   <li>
-    <strong>Tư duy xác suất:</strong> 
-    Một lệnh thua không nói lên điều gì. Kết quả chỉ có ý nghĩa trên chuỗi dài hạn.
+    <strong>Tư duy xác suất:</strong><br/>
+    Một lệnh thua không nói lên điều gì.
+    Kết quả chỉ có ý nghĩa trên chuỗi dài hạn.
   </li>
 </ol>
 
+<hr/>
+
 <h3>Case study: Bán vì tin xấu</h3>
+
+<img src="https://cdn-images.vtv.vn/zoom/700_438/2022/4/1/phan-biet-tin-that-tin-gia-1648775736640532384164.jpg"
+alt="Thoát lệnh vì tin xấu">
+
 <p>
-Bạn đang giữ lệnh Buy theo xu hướng tăng. Một tin xấu xuất hiện trên mạng xã hội 
-với tiêu đề tiêu cực, bạn hoảng loạn đóng lệnh.
+Bạn đang giữ lệnh Buy theo xu hướng tăng.
+Một tin xấu xuất hiện trên mạng xã hội với tiêu đề tiêu cực,
+bạn hoảng loạn đóng lệnh.
 </p>
+
 <ol>
   <li>Sau đó giá chỉ điều chỉnh nhẹ rồi tiếp tục tăng mạnh.</li>
   <li>Nhận ra: Tin tức không phá cấu trúc, chỉ phá tâm lý.</li>
   <li>Bài học: Không thoát lệnh nếu cấu trúc và kế hoạch chưa bị phá vỡ.</li>
 </ol>
 
-<h3>Checklist áp dụng ngay</h3>
+<hr/>
+
+<h3>Checklist chống FUD (Áp dụng ngay)</h3>
+
 <ul>
   <li>Tin này đã được kiểm chứng chưa?</li>
   <li>Cấu trúc thị trường có thực sự bị phá không?</li>
@@ -1075,9 +1016,10 @@ với tiêu đề tiêu cực, bạn hoảng loạn đóng lệnh.
 
 <p>
 <em>
-📌 <strong>Ghi nhớ:</strong> 
-FUD và FOMO là hai mặt của cùng một đồng xu cảm xúc.  
-Trader sống sót lâu dài là Trader biết <strong>lọc nhiễu, tin vào kế hoạch và giữ kỷ luật</strong>.
+📌 <strong>Ghi nhớ:</strong><br/>
+FUD và FOMO là hai mặt của cùng một đồng xu cảm xúc.<br/>
+Trader tồn tại lâu dài là người <strong>lọc nhiễu, giữ kỷ luật
+và tin vào kế hoạch</strong>.
 </em>
 </p>
 `,
@@ -1213,27 +1155,186 @@ Trader sống sót lâu dài là Trader biết <strong>lọc nhiễu, tin vào k
         title: "Greed - Lòng Tham",
         summary:
           "Không chịu chốt lời, muốn ăn trọn con sóng, dẫn đến mất lãi hoặc thua ngược.",
-        content: `
-<h2>Lòng tham (Greed) trong Trading</h2>
-<p>Lòng tham khiến Trader muốn kiếm thật nhiều tiền trong thời gian ngắn nhất, hoặc không nỡ chốt lời khi đã đạt mục tiêu.</p>
-<img src="https://images.unsplash.com/photo-1580519542036-c47de6196ba5?auto=format&fit=crop&w=800" alt="Greed - Lòng tham tiền bạc">
+        content: `<h2>Lòng tham (Greed) trong Trading là gì?</h2>
 
-<h3>Biểu hiện</h3>
+<p>
+<strong>Lòng tham (Greed)</strong> là trạng thái tâm lý khiến Trader
+muốn kiếm <strong>nhiều tiền hơn, nhanh hơn</strong> so với kế hoạch ban đầu.
+Nó thường xuất hiện khi lệnh đang có lợi nhuận và cảm xúc bắt đầu chi phối lý trí.
+</p>
+
+<p>
+Khác với FOMO (tham gia muộn vì sợ bỏ lỡ),
+<strong>Greed xuất hiện khi bạn đã đúng</strong> – và chính điều đó làm nó nguy hiểm hơn.
+</p>
+
+<p>
+📌 <em>Lòng tham không khiến bạn vào lệnh sai, mà khiến bạn phá vỡ cách thoát lệnh.</em>
+</p>
+
+<img src="https://vietjack.me/storage/uploads/images/80/83-1742277719.jpg"
+alt="Greed - Lòng tham tiền bạc">
+
+<hr/>
+
+<h3>Bản chất của lòng tham trong Trading</h3>
+
+<img src="https://t.cmx-cdn.com/songdep.com.vn/files/dieunguyen/2022/05/12/dung-tham-tien-nay-neu-khong-muon-than-bai-danh-liet-3-215256.jpg"
+alt="Lòng tham và tiền bạc">
+
+<p>
+Lòng tham thường bắt nguồn từ suy nghĩ:
+</p>
+
 <ul>
-  <li><strong>Không chịu chốt lời (Take Profit):</strong> Giá đã đạt TP theo kế hoạch nhưng dời TP ra xa hơn vì nghĩ giá còn đi tiếp.</li>
-  <li><strong>Nhồi lệnh (Pyramiding) sai cách:</strong> Thấy lãi là nhồi thêm lệnh volume lớn để ăn dày.</li>
-  <li><strong>Dời Stop Loss về hòa quá sớm hoặc không đặt SL:</strong> Sợ bị quét SL rồi chạy tiếp.</li>
-  <li>Lệnh đang lãi lớn thành hòa vốn, thậm chí thành lỗ ngược (vì tiếc không chốt).</li>
+  <li>“Giá đã đi đúng rồi, chắc còn đi xa nữa.”</li>
+  <li>“Nếu chốt bây giờ, nhỡ nó chạy thêm thì sao?”</li>
+  <li>“Lệnh này mà gồng được là ăn đậm.”</li>
 </ul>
 
-<h3>Cách kiểm soát lòng tham</h3>
+<p>
+Những suy nghĩ này khiến Trader:
+<strong>tự ý thay đổi kế hoạch giao dịch</strong>,
+mở rộng TP, bỏ SL hoặc tăng khối lượng không kiểm soát.
+</p>
+
+<hr/>
+
+<h3>Biểu hiện phổ biến của Greed</h3>
+
+<img src="https://gldt.mql5.vn/content/images/2023/08/kiem-soat-tam-ly-giao-dich-750x375.png"
+alt="Trader tham lam khi đang có lãi">
+
+<ul>
+  <li>
+    <strong>Không chịu chốt lời (Take Profit):</strong><br/>
+    Giá đã đạt TP theo kế hoạch nhưng vẫn dời TP ra xa hơn
+    vì nghĩ thị trường “còn cho thêm”.
+  </li>
+
+  <li>
+    <strong>Nhồi lệnh (Pyramiding) sai cách:</strong><br/>
+    Thấy lệnh đang lãi liền vào thêm lệnh mới với volume lớn,
+    không dựa trên cấu trúc hay điểm vào hợp lý.
+  </li>
+
+  <li>
+    <strong>Dời Stop Loss vô tội vạ:</strong><br/>
+    Dời SL về hòa quá sớm hoặc thậm chí bỏ luôn SL
+    vì sợ bị quét rồi giá chạy tiếp.
+  </li>
+
+  <li>
+    <strong>Lãi lớn → hòa vốn → lỗ:</strong><br/>
+    Một lệnh đang lãi đẹp nhưng vì tiếc không chốt,
+    cuối cùng quay về hòa vốn hoặc âm ngược.
+  </li>
+</ul>
+
+<hr/>
+
+<h3>Hậu quả của lòng tham</h3>
+
+<img src="https://cafefcdn.com/zoom/700_438/203337114487263232/2025/10/2/avatar1759424095028-1759424095313369080280.jpg"
+alt="Thua lỗ vì không chốt lời">
+
+<ul>
+  <li>
+    <strong>Mất lợi nhuận đã có:</strong><br/>
+    Thị trường không lấy tiền của bạn,
+    chính bạn trao nó lại vì không chịu chốt.
+  </li>
+
+  <li>
+    <strong>Rối loạn tâm lý giao dịch:</strong><br/>
+    Sau vài lần “lãi hóa lỗ”, bạn bắt đầu nghi ngờ chính mình
+    và sợ không dám gồng những lệnh sau.
+  </li>
+
+  <li>
+    <strong>Tạo thói quen xấu:</strong><br/>
+    Luôn mong “ăn dày”, dẫn đến overtrade và tăng rủi ro tài khoản.
+  </li>
+</ul>
+
+<hr/>
+
+<h3>Cách kiểm soát lòng tham hiệu quả</h3>
+
+<img src="https://mtr-cdn.com/images/longterm_trading_mtrading.2e16d0ba.fill-1200x630.jpg"
+alt="Kế hoạch giao dịch rõ ràng">
+
 <ol>
-  <li><strong>Có kế hoạch chốt lời rõ ràng:</strong> Đặt TP ngay khi vào lệnh và tuân thủ nó.</li>
-  <li><strong>Chốt lời từng phần:</strong> Khi giá đạt R:R 1:1 hoặc 1:2, hãy chốt 50% lợi nhuận để "đút túi", phần còn lại gồng lãi.</li>
-  <li><strong>Dùng Trailing Stop:</strong> Dời SL theo xu hướng để bảo toàn lợi nhuận nếu giá quay đầu.</li>
-  <li><strong>Tư duy thực tế:</strong> Đừng mong làm giàu nhanh. Lợi nhuận ổn định quan trọng hơn những cú "ăn may" lớn.</li>
+  <li>
+    <strong>Có kế hoạch chốt lời rõ ràng:</strong><br/>
+    Đặt Take Profit ngay khi vào lệnh và coi nó là một phần bắt buộc của plan,
+    không phải tùy hứng.
+  </li>
+
+  <li>
+    <strong>Chốt lời từng phần:</strong><br/>
+    Khi giá đạt R:R 1:1 hoặc 1:2,
+    hãy chốt 30–50% lợi nhuận để “đút túi”.
+    Phần còn lại để thị trường quyết định.
+  </li>
+
+  <li>
+    <strong>Dùng Trailing Stop đúng cách:</strong><br/>
+    Dời SL theo cấu trúc (higher low / lower high),
+    không dời theo cảm xúc.
+  </li>
+
+  <li>
+    <strong>Chấp nhận bỏ lỡ phần cuối:</strong><br/>
+    Không ai bắt trọn 100% con sóng.
+    Trader sống lâu là Trader ăn phần giữa ổn định.
+  </li>
+
+  <li>
+    <strong>Tư duy thực tế:</strong><br/>
+    Đừng tìm cách làm giàu nhanh.
+    <strong>Lợi nhuận đều đặn</strong> quan trọng hơn một vài cú thắng lớn.
+  </li>
 </ol>
-<p><em>📌 <strong>Ghi nhớ:</strong> Thị trường không nợ bạn thêm lợi nhuận. Biết đủ là đủ. "Chốt lời không bao giờ sai".</em></p>
+
+<hr/>
+
+<h3>Case study: Lãi thành lỗ vì Greed</h3>
+
+<img src="https://3gang.vn/wp-content/uploads/2022/09/chot-loi-chung-khoan-1.png"
+alt="Không chốt lời vì tham lam">
+
+<p>
+Bạn vào lệnh Buy đúng xu hướng.
+Giá đi mạnh, đạt TP theo kế hoạch,
+nhưng bạn dời TP xa hơn vì nghĩ “sắp breakout”.
+</p>
+
+<ol>
+  <li>Giá quay đầu điều chỉnh mạnh.</li>
+  <li>Lệnh từ lãi lớn → hòa vốn → âm nhẹ.</li>
+  <li>Bài học: Thị trường không quan tâm bạn tiếc bao nhiêu.</li>
+</ol>
+
+<hr/>
+
+<h3>Checklist chống Greed (tự hỏi trước khi dời TP)</h3>
+
+<ul>
+  <li>Mình dời TP vì tín hiệu mới hay vì cảm xúc?</li>
+  <li>Kế hoạch ban đầu có thay đổi không?</li>
+  <li>Đã chốt được phần lợi nhuận nào chưa?</li>
+  <li>Nếu lệnh quay đầu, mình có chấp nhận mất phần lãi này không?</li>
+</ul>
+
+<p>
+<em>
+📌 <strong>Ghi nhớ:</strong><br/>
+Thị trường không nợ bạn thêm lợi nhuận.<br/>
+<strong>Chốt lời không bao giờ là sai.</strong><br/>
+Kỷ luật đánh bại lòng tham – và giữ bạn tồn tại lâu dài.
+</em>
+</p>
 `,
         level: "BASIC",
         tags: JSON.stringify(["Tâm lý", "Chốt lời", "Gồng lãi"]),
@@ -1245,124 +1346,87 @@ Trader sống sót lâu dài là Trader biết <strong>lọc nhiễu, tin vào k
         id: "fear",
         topic: "PSYCHOLOGY",
         title: "Fear - Nỗi Sợ Hãi",
-        summary: "Không dám vào lệnh dù tín hiệu đẹp vì sợ thua lỗ.",
-        content: `<h2>Anchoring Bias (Hiệu ứng mỏ neo) trong Trading</h2>
+        summary: "Sợ hãi khiến bạn bỏ lỡ cơ hội hoặc thoát lệnh quá sớm.",
+        content: `<h2>Nỗi sợ hãi (Fear) trong Trading là gì?</h2>
+
 <p>
-Anchoring Bias là hiện tượng Trader bị <strong>"neo tư duy"</strong> vào một mức giá tham chiếu trong quá khứ 
-(giá vào lệnh, đỉnh/đáy cũ, vùng giá từng phản ứng mạnh), từ đó đưa ra quyết định sai lệch so với 
-thực tế thị trường hiện tại.
-</p>
-<p>
-Thị trường luôn vận động theo <strong>cung – cầu ở thời điểm hiện tại</strong>, nhưng Trader thì lại 
-đánh giá giá hiện tại dựa trên quá khứ. Chính sự lệch pha này khiến rất nhiều Trader 
-<b>gồng lỗ, bắt dao rơi, bỏ lỡ cơ hội tốt</b>.
+<strong>Fear (Nỗi sợ hãi)</strong> là trạng thái tâm lý khiến Trader tê liệt, không dám hành động dù nhìn thấy cơ hội rõ ràng, hoặc hành động sai lầm để trốn tránh rủi ro.
+Trong Trading, nỗi sợ thường xuất phát từ việc <strong>sợ mất tiền</strong> hoặc <strong>sợ sai</strong>.
 </p>
 
-<img src="https://www.rosysoft.vn/fileman/Uploads/screenshot_1664427919.png" alt="Anchoring Bias - Mỏ neo tư duy">
+<img src="https://images.unsplash.com/photo-1628155930542-3c7a64e2c833?auto=format&fit=crop&w=900" alt="Fear in trading">
 
-<h3>Biểu hiện phổ biến của Anchoring Bias</h3>
+<hr/>
+
+<h3>Biểu hiện của Nỗi sợ hãi</h3>
 <ul>
   <li>
-    <strong>Bắt dao rơi:</strong> 
-    Giá giảm từ 100 về 80 → cảm thấy "rẻ quá" nên Buy, 
-    vì não bị neo vào mốc 100, trong khi cấu trúc thị trường đang là 
-    <em>Lower High – Lower Low</em> và mục tiêu thực sự có thể là 60 hoặc 50.
+    <strong>Không dám vào lệnh (Analysis Paralysis):</strong><br/>
+    Phân tích rất kỹ, thấy setup đẹp, nhưng ngập ngừng không dám click chuột vì sợ thua.
+    Sau đó giá chạy đúng ý thì tiếc nuối.
   </li>
   <li>
-    <strong>Gồng lỗ về hòa:</strong> 
-    "Chờ nó hồi về giá entry rồi mình cắt" – nhưng thị trường không có nghĩa vụ 
-    quay về giá vốn của bạn.
+    <strong>Thoát lệnh quá sớm:</strong><br/>
+    Vừa thấy xanh một chút là chốt ngay vì sợ giá quay đầu, bỏ lỡ phần lợi nhuận lớn phía sau.
   </li>
   <li>
-    <strong>Ám ảnh đỉnh / đáy cũ:</strong> 
-    “Giá này từng lên 200 thì kiểu gì cũng quay lại” – bỏ qua việc xu hướng, dòng tiền 
-    và cấu trúc đã hoàn toàn thay đổi.
+    <strong>Dời Stop Loss về hòa quá sớm:</strong><br/>
+    Vì sợ lỗ nên vội vàng dời SL, kết quả là bị quét hòa vốn trước khi giá chạy đúng hướng.
   </li>
   <li>
-    <strong>Không chịu thừa nhận phá cấu trúc:</strong> 
-    Giá đã phá đáy quan trọng, nhưng Trader vẫn tin rằng "chỉ là rũ bỏ".
-  </li>
-  <li>
-    <strong>Đánh giá sai RR:</strong>
-    Neo vào TP xa xôi trong quá khứ, trong khi rủi ro hiện tại lại rất lớn.
+    <strong>Không dám nhìn biểu đồ khi đang có lệnh:</strong><br/>
+    Vào lệnh xong là tắt máy hoặc tim đập chân run, không chịu được áp lực.
   </li>
 </ul>
 
-<img src="https://blog.dktcdn.net/files/hieu-ung-mo-neo.jpg" alt="Anchoring Bias trên biểu đồ giá">
+<img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=900" alt="Trader stress">
 
-<h3>Tại sao Anchoring Bias nguy hiểm?</h3>
-<ul>
-  <li>Làm Trader <strong>mù xu hướng hiện tại</strong>.</li>
-  <li>Khiến Trader <strong>giữ lệnh thua lâu hơn lệnh thắng</strong>.</li>
-  <li>Làm méo mó quá trình ra quyết định (Decision Making).</li>
-  <li>Biến giao dịch xác suất thành giao dịch cảm xúc.</li>
-</ul>
+<hr/>
 
-<h3>Cách khắc phục Anchoring Bias</h3>
-<ol>
-  <li>
-    <strong>Quên giá vốn đi:</strong> 
-    Giá entry chỉ là thông tin nội bộ của bạn. Thị trường không biết, không quan tâm và 
-    không có trách nhiệm phải quay về đó.
-  </li>
-  <li>
-    <strong>Đánh giá lại vị thế mỗi ngày:</strong> 
-    Tự hỏi:
-    <em>"Nếu hôm nay mình CHƯA có lệnh này, mình có Buy/Sell ở mức giá hiện tại không?"</em><br>
-    Nếu câu trả lời là <strong>KHÔNG</strong> → nên thoát lệnh.
-  </li>
-  <li>
-    <strong>Dựa vào Market Structure:</strong>
-    Ưu tiên đọc <em>HH/HL, LH/LL</em> thay vì các mốc giá trong quá khứ.
-  </li>
-  <li>
-    <strong>Follow the Trend:</strong>
-    Trend tăng thì chỉ tìm Buy, trend giảm thì chỉ tìm Sell. 
-    Đừng chống trend chỉ vì cảm thấy giá "cao quá" hay "thấp quá".
-  </li>
-  <li>
-    <strong>Dùng SL cố định theo plan:</strong>
-    SL phải được đặt dựa trên cấu trúc, không được dời SL chỉ vì "hy vọng".
-  </li>
-</ol>
-
-<h3>Case study: Ám ảnh giá vốn</h3>
+<h3>Vòng lặp: Fear → FOMO → Loss</h3>
 <p>
-Bạn Buy tại 200. Giá hiện tại là 140. Bạn liên tục nghĩ: 
-<em>"Chỉ cần nó hồi về 200 là mình hòa vốn"</em>.
+Nỗi sợ hãi thường dẫn đến FOMO.
 </p>
-
-<img src="https://sproutsschools.com/wp-content/uploads/2025/04/05-Anchoring-1024x576.jpeg" alt="Anchoring Bias - Ám ảnh giá vốn">
-
 <ol>
-  <li>Quan sát cấu trúc: Xu hướng giảm rõ ràng, liên tục tạo đáy thấp hơn.</li>
-  <li>Giá vốn 200 không còn bất kỳ ý nghĩa nào với thị trường.</li>
-  <li>Quyết định đúng: Cắt lỗ theo plan, giữ vốn cho cơ hội thuận xu hướng.</li>
-  <li>Ghi chú lại: Neo vào giá vốn = Tự hủy kỷ luật giao dịch.</li>
+  <li>Sợ thua → Không vào lệnh đẹp.</li>
+  <li>Thấy giá chạy mạnh → Tiếc nuối (bắt đầu nóng lòng).</li>
+  <li>Giá chạy quá xa → Sợ bỏ lỡ (FOMO) → Nhảy vào đu đỉnh.</li>
+  <li>Giá đảo chiều → Cắt lỗ → Lại sợ hãi.</li>
 </ol>
 
-<h3>Checklist áp dụng ngay</h3>
+<hr/>
+
+<h3>Case Study: Nỗi ám ảnh từ quá khứ</h3>
+<p>
+Trader A vừa thua liên tiếp 3 lệnh.
+Lệnh thứ 4 xuất hiện setup rất đẹp đúng hệ thống.
+Nhưng vì ám ảnh 3 lệnh thua trước, A chần chừ không vào.
+Kết quả: Lệnh thứ 4 thắng lớn (đủ bù đắp 3 lệnh thua kia + có lãi).
+A tiếc nuối và tâm lý càng tệ hơn.
+</p>
+<p><em>📌 Bài học: Mỗi lệnh là một xác suất độc lập. Lệnh thua trước không ảnh hưởng đến xác suất của lệnh sau.</em></p>
+
+<hr/>
+
+<h3>Cách vượt qua nỗi sợ hãi</h3>
 <ul>
-  <li>Mình đang nhìn vào <strong>hiện tại</strong> hay <strong>quá khứ</strong>?</li>
-  <li>Cấu trúc thị trường hiện tại nói gì?</li>
-  <li>Xu hướng chính đang là Buy hay Sell?</li>
-  <li>Giá vốn có liên quan gì đến quyết định này không? (Không)</li>
-  <li>Nếu không có lệnh, mình có vào ở đây không?</li>
+  <li><strong>Giảm khối lượng (Volume):</strong> Hãy trade với số tiền nhỏ đến mức bạn không cảm thấy gì nếu mất nó.</li>
+  <li><strong>Chấp nhận rủi ro trước:</strong> Xác định số tiền mất tối đa (Stop Loss) và chấp nhận nó như "chi phí kinh doanh".</li>
+  <li><strong>Tin tưởng hệ thống:</strong> Nếu hệ thống đã được kiểm chứng (backtest), hãy cứ tuân thủ.</li>
+  <li><strong>Tư duy xác suất:</strong> Thua một lệnh không có nghĩa là bạn sai, chỉ là xác suất không rơi vào bạn lúc đó.</li>
 </ul>
 
 <p>
 <em>
-📌 <strong>Ghi nhớ:</strong> 
-Trader thua không phải vì thị trường khó đoán, mà vì họ không chịu buông bỏ 
-những mỏ neo tư duy trong đầu.  
-Hãy giao dịch với những gì bạn <strong>THẤY</strong> trên biểu đồ, 
-không phải những gì bạn <strong>NGHĨ</strong> hoặc <strong>MONG MUỐN</strong>.
+📌 <strong>Ghi nhớ:</strong><br/>
+Sợ hãi quá mức cũng nguy hiểm như tham lam.<br/>
+Nếu không dám chấp nhận rủi ro, bạn không thể có lợi nhuận.
 </em>
 </p>
 `,
-        level: "BASIC",
-        tags: JSON.stringify(["Tâm lý", "Vào lệnh", "Tự tin"]),
-        related: JSON.stringify(["Backtest", "Kỷ luật"]),
+        level: "ADVANCED",
+        tags: JSON.stringify(["Tâm lý", "Sợ hãi", "Kỷ luật"]),
+        related: JSON.stringify(["Quản lý vốn", "Backtest"]),
         created_at: now,
         updated_at: now,
       },
@@ -1700,26 +1764,140 @@ không phải những gì bạn <strong>NGHĨ</strong> hoặc <strong>MONG MUỐ
         title: "Hindsight Bias - Thiên Kiến Nhận Thức Muộn",
         summary:
           "Ảo tưởng rằng mình đã biết trước kết quả, gây ra sự tiếc nuối và ảo tưởng năng lực.",
-        content: `
-<h2>Hindsight Bias ("Biết trước mà")</h2>
-<p>Là hiện tượng tâm lý khi sự việc đã xảy ra rồi, ta mới nhìn lại và tin rằng mình đã dự đoán đúng ngay từ đầu (dù thực tế lúc đó ta rất phân vân).</p>
-<img src="https://bloganchoi.com/wp-content/uploads/2024/07/hindsight-bias-la-gi-1.jpg" alt="Hindsight Bias - Nhìn lại quá khứ" >
+        content: `<h2>Hindsight Bias ("Biết trước mà")</h2>
 
-<h3>Biểu hiện</h3>
+<p>
+<strong>Hindsight Bias</strong> là hiện tượng tâm lý khi sự việc đã xảy ra rồi,
+ta mới nhìn lại và tin rằng mình đã dự đoán đúng ngay từ đầu
+(dù thực tế tại thời điểm đó ta rất phân vân, thiếu chắc chắn).
+</p>
+
+<p>
+Trong trading, Hindsight Bias cực kỳ nguy hiểm vì nó tạo ra
+<strong>ảo tưởng năng lực phân tích</strong>, khiến Trader nghĩ rằng mình "rất giỏi",
+chỉ là "chưa kịp vào lệnh".
+</p>
+
+<img 
+  src="https://bloganchoi.com/wp-content/uploads/2024/07/hindsight-bias-la-gi-1.jpg" 
+  alt="Hindsight Bias - Nhìn lại quá khứ trong trading"
+>
+
+<p>
+Sau khi giá đã chạy, biểu đồ trông cực kỳ rõ ràng:
+xu hướng đẹp, entry quá dễ, SL quá nhỏ.
+Nhưng đó là <strong>biểu đồ của quá khứ</strong>, không phải biểu đồ lúc bạn đứng trước quyết định.
+</p>
+
+<img 
+  src="https://tintucforex.com/images/C%C3%A1ch_giao_d%E1%BB%8Bch_Forex_%C4%91%E1%BB%83_b%E1%BA%A1n.jpg" 
+  alt="Trader tiếc nuối vì bỏ lỡ cơ hội"
+>
+
+<h3>Biểu hiện của Hindsight Bias</h3>
 <ul>
-  <li>Câu cửa miệng: <em>"Biết ngay mà!", "Đã bảo rồi mà!", "Lúc nãy định vào Buy rồi mà lại thôi..."</em>.</li>
-  <li><strong>Tiếc nuối:</strong> Cảm thấy dằn vặt vì đã bỏ lỡ cơ hội "ngon ăn" (mà thực ra lúc đó không hề ngon).</li>
-  <li><strong>Ảo tưởng năng lực:</strong> Nghĩ rằng mình phân tích rất chuẩn, chỉ là "thiếu may mắn" chưa vào lệnh thôi.</li>
-  <li>Lần sau sẽ vào lệnh ẩu vì nghĩ mình dự đoán đúng.</li>
+  <li>
+    <strong>Câu cửa miệng quen thuộc:</strong>
+    <em>"Biết ngay mà!", "Đã bảo rồi mà!", "Lúc nãy định vào Buy rồi..."</em>
+  </li>
+  <li>
+    <strong>Tiếc nuối quá mức:</strong>
+    Cảm giác như vừa bỏ lỡ một cơ hội "ăn chắc",
+    dù lúc đó setup chưa đủ điều kiện.
+  </li>
+  <li>
+    <strong>Ảo tưởng kỹ năng:</strong>
+    Tin rằng mình đọc thị trường rất chuẩn, chỉ là "thiếu hành động".
+  </li>
+  <li>
+    <strong>Hành vi nguy hiểm tiếp theo:</strong>
+    Lần sau dễ vào lệnh vội vàng để "không bỏ lỡ nữa".
+  </li>
 </ul>
 
-<h3>Cách khắc phục</h3>
+<img 
+  src="https://tamlynhc.vn/wp-content/uploads/2024/05/cam-xuc-chi-phoi-1.jpg" 
+  alt="Trader bị cảm xúc chi phối"
+>
+
+<h3>Vì sao Hindsight Bias đặc biệt nguy hiểm?</h3>
+<p>
+Hindsight Bias không làm bạn thua tiền ngay lập tức,
+nhưng nó <strong>làm hỏng tư duy giao dịch dài hạn</strong>.
+</p>
+
+<ul>
+  <li>Bạn đánh giá thấp rủi ro vì nghĩ kết quả là "hiển nhiên"</li>
+  <li>Bạn không tôn trọng quy trình, chỉ tôn trọng kết quả</li>
+  <li>Bạn bỏ qua việc cải thiện hệ thống vì nghĩ mình đã đủ giỏi</li>
+</ul>
+
+<img 
+  src="https://images.unsplash.com/photo-1600267165477-6d4cc741b379?auto=format&fit=crop&w=800" 
+  alt="So sánh biểu đồ quá khứ và hiện tại"
+>
+
+<h3>Cách khắc phục Hindsight Bias</h3>
+
 <ol>
-  <li><strong>Ghi nhật ký giao dịch chi tiết:</strong> Ghi lại suy nghĩ CỦA BẠN TRƯỚC KHI GIÁ CHẠY. Nếu lúc đó bạn không ghi plan Buy, thì đừng nhận vơ là mình "đã biết".</li>
-  <li><strong>Tập trung vào hiện tại:</strong> Giá đã chạy rồi thì bỏ qua. Cơ hội mới luôn xuất hiện.</li>
-  <li><strong>Đừng nhìn gương chiếu hậu để lái xe:</strong> Phân tích dựa trên những gì đang hiển thị, không phải những gì "lẽ ra nên làm".</li>
+  <li>
+    <strong>Ghi nhật ký giao dịch chi tiết:</strong><br>
+    Ghi lại <strong>trước khi vào lệnh</strong>:
+    lý do Buy/Sell, SL, TP, cảm xúc.
+    <br>
+    👉 Nếu không có ghi chú trước đó, đừng tự nhận là "đã biết".
+  </li>
+
+  <li>
+    <strong>Tách biệt kết quả và quyết định:</strong><br>
+    Một quyết định đúng quy trình nhưng thua lỗ
+    vẫn là quyết định tốt.
+  </li>
+
+  <li>
+    <strong>Chụp lại biểu đồ tại thời điểm ra quyết định:</strong><br>
+    Để sau này nhìn lại và so sánh:
+    <em>"Lúc đó mình thực sự thấy gì?"</em>
+  </li>
+
+  <li>
+    <strong>Nhắc bản thân:</strong><br>
+    Thị trường chỉ rõ ràng <strong>sau khi nó đã đi xong</strong>.
+  </li>
 </ol>
-<p><em>📌 <strong>Ghi nhớ:</strong> Trade là xác suất, không phải tiên tri. Nếu bạn không có lệnh (Position), thì nhận định đúng cũng vô nghĩa. Đừng tiếc nuối.</em></p>
+
+<img 
+  src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=800" 
+  alt="Ghi chép nhật ký giao dịch"
+>
+
+<h3>Ví dụ thực tế</h3>
+<p>
+Bạn thấy giá breakout mạnh sau khi đã chạy 200 pip.
+Bạn thốt lên: <em>"Biết thế vào từ đầu!"</em>
+</p>
+
+<ul>
+  <li>Nhưng tại thời điểm đó: tin tức xấu, nến giật mạnh, cấu trúc chưa rõ</li>
+  <li>Bạn đứng ngoài là <strong>quyết định hợp lý</strong></li>
+  <li>Chỉ có hindsight khiến bạn nghĩ mình đã sai</li>
+</ul>
+
+<h3>Checklist tự kiểm tra</h3>
+<ul>
+  <li>Mình có ghi plan trước khi giá chạy không?</li>
+  <li>Lúc đó setup có đủ điều kiện không?</li>
+  <li>Hay mình chỉ đang nhìn chart của quá khứ?</li>
+  <li>Mình đang học từ quy trình hay từ kết quả?</li>
+</ul>
+
+<p>
+<em>
+📌 <strong>Ghi nhớ:</strong><br>
+Trade là trò chơi của <strong>xác suất và kỷ luật</strong>, không phải "giá mà".
+Nếu không có lệnh, thì bạn không đúng – chỉ là người đứng ngoài.
+</em>
+</p>
 `,
         level: "ADVANCED",
         tags: JSON.stringify(["Tư duy", "Nhật ký giao dịch"]),
@@ -2164,6 +2342,724 @@ không phải những gì bạn <strong>NGHĨ</strong> hoặc <strong>MONG MUỐ
         level: "ADVANCED",
         tags: JSON.stringify(["Tư duy", "Cấu trúc thị trường", "Price Action"]),
         related: JSON.stringify(["Price Action", "Xu hướng"]),
+        created_at: now,
+        updated_at: now,
+      },
+      {
+        id: "risk-fixed-percent",
+        topic: "RISK",
+        title: "Rủi ro cố định theo % tài khoản (BẮT BUỘC PHẢI CÓ)",
+        summary:
+          "Quy tắc sống còn: Chỉ rủi ro 1-2% tài khoản cho mỗi lệnh giao dịch.",
+        content: `
+<h2>Rủi ro cố định theo % tài khoản (BẮT BUỘC PHẢI CÓ)</h2>
+ 
+<p>
+<strong>Rủi ro cố định theo % tài khoản</strong> là phương pháp quản lý vốn trong đó 
+mỗi lệnh giao dịch chỉ được phép rủi ro một <strong>tỷ lệ cố định</strong> trên tổng tài khoản,
+thường là <strong>0.5% – 2%</strong>.
+</p>
+ 
+<p>
+Đây không phải là lựa chọn, mà là <strong>luật sinh tồn</strong> của Trader chuyên nghiệp.  
+Không áp dụng quy tắc này, dù chiến lược có winrate cao đến đâu, tài khoản vẫn có thể 
+<strong>cháy chỉ sau vài lệnh cảm xúc</strong>.
+</p>
+ 
+<img src="https://gldt.mql5.vn/2024/12/34991.jpeg" 
+alt="Quản lý rủi ro theo phần trăm tài khoản">
+ 
+<h3>Vì sao phương pháp này quan trọng?</h3>
+<ul>
+  <li>
+    <strong>Bảo vệ tài khoản khỏi chuỗi thua:</strong> 
+    Thua 10 lệnh liên tiếp với rủi ro 1% vẫn còn ~90% tài khoản để tiếp tục.
+  </li>
+  <li>
+    <strong>Ổn định tâm lý:</strong> 
+    Khi biết trước mức lỗ tối đa, Trader không còn sợ hãi hay hoảng loạn.
+  </li>
+  <li>
+    <strong>Cho phép tư duy xác suất:</strong> 
+    Trade không còn là “được ăn cả – ngã về không” mà là trò chơi dài hạn.
+  </li>
+</ul>
+ 
+<h3>Nguyên tắc cốt lõi</h3>
+<p>
+<strong>Tiền rủi ro là cố định – Khối lượng giao dịch thay đổi.</strong>
+</p>
+ 
+<p>
+Khoảng cách Stop Loss có thể xa hoặc gần, nhưng số tiền sẵn sàng mất 
+<strong>luôn phải giữ nguyên</strong>.
+</p>
+ 
+<img src="https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=900" 
+alt="Risk management trong trading">
+ 
+<h3>Ví dụ minh họa thực tế</h3>
+<p>
+Giả sử:
+</p>
+<ul>
+  <li>Tài khoản: <strong>10.000 USD</strong></li>
+  <li>Rủi ro mỗi lệnh: <strong>1%</strong></li>
+  <li>Số tiền rủi ro: <strong>100 USD</strong></li>
+</ul>
+ 
+<p>
+<strong>Trường hợp 1:</strong> SL = 20 pip  
+→ Bạn có thể vào volume lớn hơn.
+</p>
+ 
+<p>
+<strong>Trường hợp 2:</strong> SL = 50 pip  
+→ Bạn buộc phải giảm volume xuống.
+</p>
+ 
+<p>
+👉 Dù SL là bao nhiêu, nếu lệnh thua, bạn chỉ mất <strong>100 USD</strong>, 
+không hơn, không kém.
+</p>
+ 
+<h3>Những sai lầm phổ biến</h3>
+<ul>
+  <li>
+    <strong>Vào volume cố định:</strong> 
+    Lúc SL ngắn thì rủi ro nhỏ, SL dài thì rủi ro phình to → mất kiểm soát.
+  </li>
+  <li>
+    <strong>Tăng rủi ro sau khi thua:</strong> 
+    Gỡ gạc bằng cách tăng lot → phá vỡ toàn bộ hệ thống.
+  </li>
+  <li>
+    <strong>Nhầm lẫn giữa tự tin và liều lĩnh:</strong> 
+    Setup đẹp không có nghĩa là được phép rủi ro lớn hơn.
+  </li>
+</ul>
+ 
+<img src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=900" 
+alt="Trader kiểm soát rủi ro">
+ 
+<h3>Nên chọn bao nhiêu % là hợp lý?</h3>
+<ul>
+  <li><strong>Người mới:</strong> 0.5% – 1%</li>
+  <li><strong>Trader có kinh nghiệm:</strong> 1% – 2%</li>
+  <li><strong>Scalping / tâm lý yếu:</strong> ≤ 0.5%</li>
+</ul>
+ 
+<p>
+🚫 <strong>Không khuyến nghị</strong> rủi ro trên 2% cho bất kỳ ai trade dài hạn.
+</p>
+ 
+<h3>Checklist trước khi vào lệnh</h3>
+<ul>
+  <li>Mình đang rủi ro bao nhiêu % tài khoản?</li>
+  <li>SL đặt theo cấu trúc hay theo cảm xúc?</li>
+  <li>Volume đã tính đúng theo % rủi ro chưa?</li>
+  <li>Nếu lệnh này thua, mình có chấp nhận được không?</li>
+</ul>
+ 
+<p>
+<em>
+📌 <strong>Ghi nhớ:</strong>  
+Trader không chết vì một lệnh thua,  
+Trader chết vì <strong>một lệnh thua quá lớn</strong>.  
+Giữ rủi ro nhỏ, bạn sẽ luôn còn cơ hội.
+</em>
+</p>
+`,
+        level: "ADVANCED",
+        tags: JSON.stringify(["Quản lý vốn", "Rủi ro", "Bắt buộc"]),
+        related: JSON.stringify(["Stop Loss", "Tâm lý giao dịch"]),
+        created_at: now,
+        updated_at: now,
+      },
+      {
+        id: "risk-stop-loss",
+        topic: "RISK",
+        title: "Luôn đặt Stop Loss (SL) – Không có ngoại lệ",
+        summary:
+          "Stop Loss là dây an toàn bảo vệ bạn khỏi những cú crash của thị trường.",
+        content: `
+<h2>Luôn đặt Stop Loss (SL) – Không có ngoại lệ</h2>
+
+<p>
+<strong>Stop Loss (Cắt lỗ)</strong> là lệnh chờ được đặt sẵn để tự động đóng vị thế khi giá đi ngược lại dự đoán của bạn một khoảng xác định.
+Đây là <strong>công cụ bảo hiểm duy nhất</strong> giúp bạn không bị mất trắng tài khoản trong một nốt nhạc.
+</p>
+
+<img src="https://eu-images.contentstack.com/v3/assets/blt73dfd92ee49f59a6/bltb9add0c90e5f407d/680b6edddacf364ff7bec634/MDP-8425_1_cover_1200x675_EN.png" alt="Stop Loss trading">
+
+<h3>Tại sao phải có Stop Loss?</h3>
+<ul>
+  <li><strong>Bảo vệ vốn:</strong> Ngăn chặn một lệnh thua nhỏ biến thành thảm họa.</li>
+  <li><strong>Giữ tâm lý ổn định:</strong> Bạn biết chính xác mình sẽ mất bao nhiêu nếu sai, nên không lo lắng.</li>
+  <li><strong>Chống lại thiên nga đen:</strong> Những sự kiện tin tức bất ngờ có thể khiến giá chạy hàng trăm pip trong vài giây. Không có SL, bạn có thể cháy tài khoản ngay lập tức.</li>
+</ul>
+
+<h3>Nguyên tắc đặt Stop Loss đúng cách</h3>
+<ul>
+  <li>Đặt SL dựa trên <strong>cấu trúc thị trường</strong> (trên đỉnh cũ / dưới đáy cũ), không đặt theo số tiền hay số pip cảm tính.</li>
+  <li>Đặt SL ở nơi mà nếu giá chạm vào, nhận định của bạn <strong>chắc chắn sai</strong>.</li>
+  <li>Không bao giờ dời SL ra xa (nới SL) khi lệnh đang lỗ.</li>
+</ul>
+
+<img src="https://cdn.dnse.com.vn/dnse-news/2023/02/morningstar4.jpg" alt="Stop Loss strategy">
+
+<h3>Checklist Stop Loss</h3>
+<ul>
+  <li>Lệnh này đã có SL chưa?</li>
+  <li>SL này có được bảo vệ bởi cản kỹ thuật không?</li>
+  <li>Mình có cam kết không dời SL không?</li>
+</ul>
+
+<p><em>📌 <strong>Ghi nhớ:</strong> Vào lệnh không có Stop Loss giống như lái xe không phanh. Sớm muộn gì cũng tai nạn.</em></p>
+`,
+        level: "ADVANCED",
+        tags: JSON.stringify(["Stop Loss", "Quản lý rủi ro"]),
+        related: JSON.stringify(["Rủi ro cố định", "Cấu trúc thị trường"]),
+        created_at: now,
+        updated_at: now,
+      },
+      {
+        id: "risk-reward-ratio",
+        topic: "RISK",
+        title: "Tỷ lệ Risk : Reward (R:R) tối thiểu 1:2",
+        summary: "Bí mật để có lợi nhuận ngay cả khi bạn thua nhiều hơn thắng.",
+        content: `
+<h2>Tỷ lệ Risk : Reward (R:R) tối thiểu 1:2</h2>
+
+<p>
+<strong>Risk:Reward (R:R)</strong> là tỷ lệ giữa số tiền bạn chấp nhận mất (Risk) và số tiền bạn kỳ vọng kiếm được (Reward) trong một lệnh.
+Tỷ lệ R:R 1:2 nghĩa là bạn chấp nhận mất 1 đồng để kiếm 2 đồng.
+</p>
+
+<img src="https://gldt.mql5.vn/content/images/2024/07/Ty-le-loi_lo-ty-le-R_R-scaled.jpg" alt="Risk Reward Ratio">
+
+<h3>Sức mạnh của R:R 1:2</h3>
+<p>
+Nếu bạn duy trì tỷ lệ R:R 1:2, bạn chỉ cần <strong>thắng 35-40% số lệnh</strong> là đã có lãi.
+Bạn không cần phải đúng mọi lúc, bạn chỉ cần thắng lớn hơn khi đúng và thua nhỏ hơn khi sai.
+</p>
+
+<h3>Bảng toán học chứng minh</h3>
+<ul>
+  <li>10 lệnh, Thắng 4, Thua 6 (Winrate 40%).</li>
+  <li>Mỗi lệnh thua mất $100. Tổng thua: 6 x $100 = $600.</li>
+  <li>Mỗi lệnh thắng được $200. Tổng thắng: 4 x $200 = $800.</li>
+  <li><strong>Kết quả: Lãi ròng $200.</strong></li>
+</ul>
+
+<h3>Lưu ý khi áp dụng</h3>
+<ul>
+  <li>Đừng cố ép R:R lên cao vô lý (ví dụ 1:10) nếu thị trường không cho phép.</li>
+  <li>Nếu setup không đạt tối thiểu 1:1.5 hoặc 1:2, hãy bỏ qua.</li>
+  <li>Hãy thực tế với điểm TP (Take Profit).</li>
+</ul>
+
+<p><em>📌 <strong>Ghi nhớ:</strong> Đừng tìm kiếm chén thánh dự đoán đúng 100%. Hãy tìm kiếm hệ thống có R:R tốt.</em></p>
+`,
+        level: "ADVANCED",
+        tags: JSON.stringify(["R:R", "Lợi nhuận", "Toán học"]),
+        related: JSON.stringify(["Quản lý vốn", "Tâm lý"]),
+        created_at: now,
+        updated_at: now,
+      },
+      {
+        id: "risk-reduce-volume",
+        topic: "RISK",
+        title: "Giảm khối lượng khi tâm lý không ổn",
+        summary:
+          "Khi bạn không ổn, tài khoản của bạn cũng sẽ không ổn. Hãy giảm ga.",
+        content: `
+<h2>Giảm khối lượng khi tâm lý không ổn</h2>
+
+<p>
+Trading là trò chơi của tâm lý. Khi bạn đang tức giận, buồn chán, hưng phấn quá độ hoặc đang chịu áp lực tài chính,
+khả năng ra quyết định của bạn sẽ bị suy giảm nghiêm trọng. Đây là lúc dễ mắc sai lầm nhất.
+</p>
+
+<img src="https://hellodoctors.vn/img/uploads/nguyen-nhan-gay-ra-cang-thang-stress-va-cach-chua-tri2_3156.png" alt="Psychology in trading">
+
+<h3>Khi nào cần giảm volume?</h3>
+<ul>
+  <li>Sau một chuỗi thua liên tiếp (để lấy lại tự tin).</li>
+  <li>Khi đang có chuyện buồn phiền cá nhân.</li>
+  <li>Khi thị trường biến động quá mạnh và khó lường.</li>
+  <li>Khi bạn đang thử nghiệm một chiến lược mới.</li>
+</ul>
+
+<h3>Chiến thuật "Hạ cánh mềm"</h3>
+<p>
+Thay vì nghỉ hẳn (điều rất khó với trader nghiện trade), hãy giảm volume xuống còn <strong>1/2 hoặc 1/4</strong> so với bình thường.
+Điều này giúp bạn vẫn giữ nhịp với thị trường nhưng rủi ro được giảm thiểu tối đa.
+</p>
+
+<p><em>📌 <strong>Ghi nhớ:</strong> Bảo vệ tâm lý cũng quan trọng như bảo vệ vốn. Nếu thấy không ổn, hãy đi chậm lại.</em></p>
+`,
+        level: "ADVANCED",
+        tags: JSON.stringify(["Tâm lý", "Volume", "Kiểm soát"]),
+        related: JSON.stringify(["Tâm lý giao dịch", "Overtrading"]),
+        created_at: now,
+        updated_at: now,
+      },
+      {
+        id: "risk-daily-limit",
+        topic: "RISK",
+        title: "Giới hạn thua lỗ trong ngày / tuần",
+        summary:
+          "Biết điểm dừng trước khi mọi thứ đi quá xa (Daily Loss Limit).",
+        content: `
+<h2>Giới hạn thua lỗ trong ngày / tuần</h2>
+
+<p>
+<strong>Daily Loss Limit</strong> là mức lỗ tối đa bạn cho phép bản thân chịu đựng trong một ngày.
+Khi chạm mức này, bạn <strong>buộc phải ngừng giao dịch</strong> hoàn toàn trong ngày hôm đó, không ngoại lệ.
+</p>
+
+<img src="https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?auto=format&fit=crop&w=900" alt="Stop trading sign">
+
+<h3>Tại sao cần giới hạn này?</h3>
+<ul>
+  <li>Ngăn chặn <strong>Revenge Trading</strong> (giao dịch trả thù) khi nóng máu.</li>
+  <li>Bảo toàn vốn để ngày mai còn cơ hội làm lại.</li>
+  <li>Giúp ngắt mạch tâm lý tiêu cực.</li>
+</ul>
+
+<h3>Con số gợi ý</h3>
+<ul>
+  <li>Giới hạn ngày: Tối đa 3% - 5% tài khoản.</li>
+  <li>Giới hạn tuần: Tối đa 10% tài khoản.</li>
+  <li>Giới hạn lệnh thua liên tiếp: 3 lệnh thua liên tiếp → Nghỉ.</li>
+</ul>
+
+<p><em>📌 <strong>Ghi nhớ:</strong> Thị trường ngày mai vẫn còn đó. Nếu hôm nay "đen", hãy tắt máy đi ngủ. Đừng cố gỡ.</em></p>
+`,
+        level: "ADVANCED",
+        tags: JSON.stringify(["Kỷ luật", "Dừng lỗ", "Quy tắc"]),
+        related: JSON.stringify(["Revenge Trading", "Quản lý vốn"]),
+        created_at: now,
+        updated_at: now,
+      },
+      {
+        id: "risk-no-over-stacking",
+        topic: "RISK",
+        title: "Không nhồi lệnh bừa bãi (No Over-stacking)",
+        summary:
+          "Nhồi lệnh sai cách là con đường nhanh nhất dẫn đến cháy tài khoản.",
+        content: `
+<h2>Không nhồi lệnh bừa bãi</h2>
+
+<p>
+<strong>Nhồi lệnh (Stacking)</strong> là việc mở thêm vị thế khi lệnh cũ đang chạy.
+Có hai loại nhồi lệnh: nhồi khi đang lời (Pyramiding - Tốt) và nhồi khi đang lỗ (DCA/Gồng lỗ - Xấu).
+Ở đây chúng ta nói về việc <strong>nhồi lệnh vô tội vạ</strong>.
+</p>
+
+<img src="https://images.unsplash.com/photo-1620325867502-221cfb5faa5f?auto=format&fit=crop&w=900" alt="Stacking orders">
+
+<h3>Nguy hiểm của nhồi lệnh sai</h3>
+<ul>
+  <li>Tăng rủi ro lên cấp số nhân.</li>
+  <li>Khi giá đảo chiều nhẹ, toàn bộ lãi biến thành lỗ hoặc lỗ chồng lỗ.</li>
+  <li>Dễ bị margin call (quá mức ký quỹ).</li>
+</ul>
+
+<h3>Quy tắc nhồi lệnh an toàn</h3>
+<ul>
+  <li>Chỉ nhồi thêm lệnh khi lệnh trước đó <strong>đã có lãi</strong> và đã dời SL về hòa vốn.</li>
+  <li>Không bao giờ nhồi thêm lệnh khi lệnh cũ đang lỗ (trừ khi có kế hoạch DCA bài bản và volume nhỏ).</li>
+  <li>Tổng rủi ro của tất cả các lệnh cộng lại không được vượt quá giới hạn cho phép (ví dụ 2%).</li>
+</ul>
+
+<p><em>📌 <strong>Ghi nhớ:</strong> Đừng tham lam muốn ăn trọn con sóng bằng cách nhồi full margin. Một cú sập nhẹ sẽ quét sạch tất cả.</em></p>
+`,
+        level: "ADVANCED",
+        tags: JSON.stringify(["Nhồi lệnh", "DCA", "Rủi ro"]),
+        related: JSON.stringify(["Pyramiding", "Gồng lỗ"]),
+        created_at: now,
+        updated_at: now,
+      },
+      {
+        id: "risk-partial-profit",
+        topic: "RISK",
+        title: "Chốt lời từng phần (Scaling Out)",
+        summary:
+          "Đừng để lệnh thắng biến thành lệnh thua. Hãy bỏ túi một phần lợi nhuận.",
+        content: `
+<h2>Chốt lời từng phần</h2>
+
+<p>
+<strong>Chốt lời từng phần</strong> là việc đóng một phần khối lượng lệnh khi giá đạt các mốc mục tiêu, và giữ phần còn lại để chạy tiếp theo xu hướng.
+Ví dụ: Buy 1 Lot, giá lên R:R 1:1 thì chốt 0.5 Lot, dời SL về hòa vốn.
+</p>
+
+<img src="https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?auto=format&fit=crop&w=900" alt="Taking profit">
+
+<h3>Lợi ích tuyệt vời</h3>
+<ul>
+  <li><strong>Tâm lý thoải mái:</strong> Bạn đã có tiền đút túi, phần còn lại là "lãi chạy", tâm lý cực kỳ nhẹ nhàng.</li>
+  <li><strong>Tránh tiếc nuối:</strong> Nếu giá quay đầu, bạn vẫn có lãi. Nếu giá đi tiếp, bạn vẫn còn lệnh.</li>
+  <li><strong>Tăng Winrate thực tế:</strong> Biến nhiều lệnh có thể hòa/thua thành lệnh thắng nhỏ.</li>
+</ul>
+
+<h3>Cách thực hiện</h3>
+<ul>
+  <li>TP1 (R:R 1:1 hoặc 1:1.5): Chốt 50% volume + Dời SL về Entry.</li>
+  <li>TP2 (R:R 1:2 hoặc kháng cự tiếp theo): Chốt tiếp 30%.</li>
+  <li>TP3 (Moon bag): Giữ 20% còn lại đến hết xu hướng.</li>
+</ul>
+
+<p><em>📌 <strong>Ghi nhớ:</strong> Không ai phá sản vì chốt lời. Hãy học cách hài lòng với lợi nhuận thị trường cho.</em></p>
+`,
+        level: "ADVANCED",
+        tags: JSON.stringify(["Chốt lời", "Chiến lược", "Tối ưu"]),
+        related: JSON.stringify(["Trailing Stop", "Tâm lý"]),
+        created_at: now,
+        updated_at: now,
+      },
+      {
+        id: "risk-streak-management",
+        topic: "RISK",
+        title: "Quản lý rủi ro theo chuỗi lệnh",
+        summary: "Điều chỉnh volume dựa trên hiệu suất giao dịch gần nhất.",
+        content: `
+<h2>Quản lý rủi ro theo chuỗi lệnh</h2>
+
+<p>
+Hiệu suất giao dịch thường có tính chu kỳ (lúc thắng liên tục, lúc thua liên tục).
+Trader thông minh biết cách <strong>đạp ga khi thắng</strong> và <strong>đạp thắng khi thua</strong>.
+</p>
+
+<img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=900" alt="Trading performance">
+
+<h3>Quy tắc Anti-Martingale (Thuận thiên)</h3>
+<ul>
+  <li><strong>Khi đang thắng (Winning Streak):</strong> Giữ nguyên rủi ro hoặc tăng nhẹ (nếu tự tin và có lãi đệm).</li>
+  <li><strong>Khi đang thua (Losing Streak):</strong> GIẢM rủi ro xuống một nửa sau mỗi lệnh thua hoặc sau một mốc sụt giảm nhất định (Drawdown).</li>
+</ul>
+
+<h3>Tại sao không nên gấp thếp (Martingale)?</h3>
+<p>
+Gấp thếp (thua đánh gấp đôi để gỡ) là con đường nhanh nhất ra đê. Thị trường có thể vô lý lâu hơn khả năng chịu đựng của tài khoản bạn.
+</p>
+
+<h3>Ví dụ áp dụng</h3>
+<ul>
+  <li>Lệnh 1: Thua (Rủi ro 1%).</li>
+  <li>Lệnh 2: Thua (Rủi ro 1%).</li>
+  <li>Lệnh 3: Giảm rủi ro xuống 0.5%.</li>
+  <li>Khi nào thắng lại 2 lệnh liên tiếp mới quay về 1%.</li>
+</ul>
+
+<p><em>📌 <strong>Ghi nhớ:</strong> Bảo toàn vốn trong chuỗi thua quan trọng hơn việc cố kiếm tiền nhanh.</em></p>
+`,
+        level: "ADVANCED",
+        tags: JSON.stringify(["Chuỗi lệnh", "Quản lý vốn", "Chiến thuật"]),
+        related: JSON.stringify(["Martingale", "Drawdown"]),
+        created_at: now,
+        updated_at: now,
+      },
+      {
+        id: "risk-correlation",
+        topic: "RISK",
+        title: "Không rủi ro quá nhiều lệnh cùng chiều (Correlation)",
+        summary:
+          "Đừng bỏ tất cả trứng vào một giỏ, hoặc các giỏ có liên quan chặt chẽ với nhau.",
+        content: `
+<h2>Không rủi ro quá nhiều lệnh cùng chiều</h2>
+
+<p>
+Nhiều cặp tiền hoặc tài sản có tính <strong>tương quan (Correlation)</strong> rất cao.
+Ví dụ: EURUSD và GBPUSD thường chạy cùng chiều. Vàng (XAUUSD) và USD thường ngược chiều.
+</p>
+
+<img src="https://res.cloudinary.com/dq4basktt/image/upload/v1770384578/Quan-tri-rui-ro-la-gi-1-copy-7-1024x692_qfwpw6.jpg" alt="Currency correlation">
+
+<h3>Cạm bẫy thường gặp</h3>
+<p>
+Bạn Buy EURUSD (rủi ro 1%), Buy GBPUSD (rủi ro 1%), Buy AUDUSD (rủi ro 1%).
+Bạn nghĩ mình đang đa dạng hóa danh mục? <strong>Sai lầm!</strong>
+Thực tế bạn đang "Short USD" với rủi ro 3%. Nếu USD tăng mạnh, bạn sẽ thua cả 3 lệnh cùng lúc.
+</p>
+
+<h3>Cách khắc phục</h3>
+<ul>
+  <li>Kiểm tra bảng tương quan các cặp tiền trước khi vào lệnh.</li>
+  <li>Nếu muốn vào nhiều cặp cùng chiều, hãy <strong>chia nhỏ rủi ro</strong>. Ví dụ thay vì mỗi lệnh 1%, hãy đánh mỗi lệnh 0.3%.</li>
+  <li>Chọn các cặp ít liên quan nhau để phân tán rủi ro thực sự.</li>
+</ul>
+
+<p><em>📌 <strong>Ghi nhớ:</strong> Đa dạng hóa sai cách = Tự sát tập thể. Hãy chú ý đến sự tương quan.</em></p>
+`,
+        level: "ADVANCED",
+        tags: JSON.stringify(["Tương quan", "Đa dạng hóa", "Rủi ro"]),
+        related: JSON.stringify(["Currency Correlation", "Quản lý danh mục"]),
+        created_at: now,
+        updated_at: now,
+      },
+      {
+        id: "risk-journal",
+        topic: "RISK",
+        title: "Nhật ký giao dịch (Risk Journal)",
+        summary:
+          "Công cụ mạnh mẽ nhất để cải thiện kỹ năng quản lý rủi ro của bạn.",
+        content: `
+<h2>Nhật ký giao dịch (Risk Journal)</h2>
+
+<p>
+Bạn không thể cải thiện những gì bạn không đo lường.
+Nhật ký giao dịch là nơi ghi lại chi tiết mọi quyết định của bạn, giúp bạn nhìn ra điểm yếu và sai lầm lặp lại.
+</p>
+
+<img src="https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?auto=format&fit=crop&w=900" alt="Writing journal">
+
+<h3>Cần ghi gì trong nhật ký rủi ro?</h3>
+<ul>
+  <li><strong>Setup:</strong> Tại sao vào lệnh? (Có đúng plan không?)</li>
+  <li><strong>Rủi ro:</strong> Lệnh này rủi ro bao nhiêu %? SL bao nhiêu pip?</li>
+  <li><strong>Cảm xúc:</strong> Lúc vào lệnh cảm thấy thế nào? (Tự tin, lo lắng, cay cú?)</li>
+  <li><strong>Kết quả:</strong> Thắng hay thua? Có tuân thủ kỷ luật cắt lỗ/chốt lời không?</li>
+  <li><strong>Bài học:</strong> Làm gì để tốt hơn lần sau?</li>
+</ul>
+
+<h3>Lợi ích</h3>
+<ul>
+  <li>Nhận ra các "lỗ hổng" rủi ro (ví dụ: thường xuyên dời SL, thường xuyên FOMO).</li>
+  <li>Xây dựng sự tự tin dựa trên số liệu thực tế.</li>
+  <li>Giúp bạn chịu trách nhiệm với từng quyết định của mình.</li>
+</ul>
+
+<p><em>📌 <strong>Ghi nhớ:</strong> Một trí nhớ tốt không bằng một nét mực mờ. Hãy viết nhật ký mỗi ngày.</em></p>
+`,
+        level: "ADVANCED",
+        tags: JSON.stringify(["Nhật ký", "Học tập", "Kỷ luật"]),
+        related: JSON.stringify(["Backtest", "Review"]),
+        created_at: now,
+        updated_at: now,
+      },
+      
+      {
+        id: "candle-reversal",
+        topic: "CANDLESTICKS",
+        title: "Nhóm mô hình nến ĐẢO CHIỀU (Reversal Patterns)",
+        summary:
+          "Các mô hình nến báo hiệu xu hướng có thể thay đổi, thường xuất hiện tại đỉnh hoặc đáy quan trọng.",
+        content: `
+<h2>Nhóm mô hình nến ĐẢO CHIỀU (Reversal Patterns)</h2>
+<p>👉 <strong>Mục đích:</strong> Dùng để bắt điểm đảo chiều tại các vùng đỉnh/đáy quan trọng (Key Levels).</p>
+<img src="https://images.unsplash.com/photo-1640340434855-6084b1f4901c?auto=format&fit=crop&w=900" alt="Candlestick Reversal Patterns">
+
+<hr/>
+
+<h3>1. Pin Bar (Hammer / Shooting Star)</h3>
+<p>Pin Bar là mẫu nến đơn có đuôi dài, thể hiện sự từ chối giá quyết liệt.</p>
+
+<h4>Hammer (Bullish Pin Bar)</h4>
+<ul>
+  <li><strong>Đặc điểm:</strong> Bóng dưới dài, thân nhỏ nằm ở trên.</li>
+  <li><strong>Ý nghĩa:</strong> Từ chối giá thấp. Phe bán cố đẩy giá xuống nhưng thất bại, phe mua đẩy ngược lên.</li>
+  <li><strong>Vị trí:</strong> Xuất hiện tại đáy → Khả năng đảo chiều TĂNG.</li>
+</ul>
+
+<h4>Shooting Star (Bearish Pin Bar)</h4>
+<ul>
+  <li><strong>Đặc điểm:</strong> Bóng trên dài, thân nhỏ nằm ở dưới.</li>
+  <li><strong>Ý nghĩa:</strong> Từ chối giá cao. Phe mua cố đẩy giá lên nhưng thất bại, phe bán đạp xuống.</li>
+  <li><strong>Vị trí:</strong> Xuất hiện tại đỉnh → Khả năng đảo chiều GIẢM.</li>
+</ul>
+
+<p><em>📌 <strong>Lưu ý quan trọng:</strong> Pin Bar chỉ mạnh khi xuất hiện ở Key Level (Hỗ trợ/Kháng cự), thuận xu hướng lớn (HTF) và có volume hoặc phản ứng giá rõ ràng.</em></p>
+
+<hr/>
+
+<h3>2. Engulfing (Nến Nhấn Chìm)</h3>
+
+<h4>Bullish Engulfing (Nhấn chìm tăng)</h4>
+<ul>
+  <li><strong>Đặc điểm:</strong> Nến xanh sau bao trọn toàn bộ thân nến đỏ trước đó.</li>
+  <li><strong>Ý nghĩa:</strong> Phe mua hoàn toàn áp đảo phe bán.</li>
+</ul>
+
+<h4>Bearish Engulfing (Nhấn chìm giảm)</h4>
+<ul>
+  <li><strong>Đặc điểm:</strong> Nến đỏ sau bao trọn toàn bộ thân nến xanh trước đó.</li>
+  <li><strong>Ý nghĩa:</strong> Phe bán hoàn toàn áp đảo phe mua.</li>
+</ul>
+
+<p><em>📌 <strong>Hiệu quả nhất tại:</strong> Đỉnh/đáy hoặc sau một pha hồi (pullback) trong xu hướng chính.</em></p>
+
+<hr/>
+
+<h3>3. Morning Star & Evening Star (Sao Mai / Sao Hôm)</h3>
+<p>Đây là bộ 3 nến đảo chiều mạnh mẽ.</p>
+
+<h4>Morning Star (Đảo chiều TĂNG)</h4>
+<ol>
+  <li>Nến giảm mạnh (theo xu hướng cũ).</li>
+  <li>Nến do dự (thân nhỏ/Doji) thể hiện sự lưỡng lự.</li>
+  <li>Nến tăng mạnh xác nhận đảo chiều.</li>
+</ol>
+
+<h4>Evening Star (Đảo chiều GIẢM)</h4>
+<ol>
+  <li>Nến tăng mạnh.</li>
+  <li>Nến do dự.</li>
+  <li>Nến giảm mạnh xác nhận.</li>
+</ol>
+
+<p>👉 Thể hiện sự chuyển giao quyền lực: Suy yếu của phe cũ → Cân bằng → Sự áp đảo của phe mới.</p>
+
+<hr/>
+
+<h3>4. Tweezer Top / Tweezer Bottom (Đỉnh nhíp / Đáy nhíp)</h3>
+<ul>
+  <li><strong>Đặc điểm:</strong> Hai nến liên tiếp có đỉnh (Top) hoặc đáy (Bottom) gần bằng nhau.</li>
+  <li><strong>Ý nghĩa:</strong> Thể hiện phe còn lại không thể phá vỡ mức giá đó (tạo thành Hỗ trợ/Kháng cự cứng ngay tại khung thời gian đó).</li>
+</ul>
+`,
+        level: "BASIC",
+        tags: JSON.stringify(["Nến Nhật", "Đảo chiều", "Price Action"]),
+        related: JSON.stringify(["Hỗ trợ Kháng cự", "Xu hướng"]),
+        created_at: now,
+        updated_at: now,
+      },
+      {
+        id: "candle-continuation",
+        topic: "CANDLESTICKS",
+        title: "Nhóm mô hình nến TIẾP DIỄN (Continuation Patterns)",
+        summary:
+          "Các mô hình báo hiệu xu hướng hiện tại vẫn còn mạnh và sẽ tiếp tục.",
+        content: `
+<h2>Nhóm mô hình nến TIẾP DIỄN (Continuation Patterns)</h2>
+<p>👉 <strong>Mục đích:</strong> Dùng để đi theo xu hướng (Trend Following), không phải để bắt đỉnh đáy.</p>
+<img src="https://images.unsplash.com/photo-1611974765270-ca1258634369?auto=format&fit=crop&w=900" alt="Candlestick Continuation Patterns">
+
+<hr/>
+
+<h3>1. Inside Bar (Nến nằm trong)</h3>
+<ul>
+  <li><strong>Đặc điểm:</strong> Nến sau (Mother Bar) nằm hoàn toàn trong phạm vi High-Low của nến trước.</li>
+  <li><strong>Ý nghĩa:</strong> Thể hiện sự tích lũy, nén giá của thị trường sau một đợt chạy mạnh. Lò xo đang được nén lại để chuẩn bị bung ra.</li>
+</ul>
+
+<p>📌 <strong>Cách trade phổ biến:</strong></p>
+<ul>
+  <li>Đặt lệnh chờ (Stop Order) khi giá phá vỡ (Breakout) khỏi High hoặc Low của Mother Bar.</li>
+  <li>Chỉ trade theo hướng của xu hướng chính (Trend).</li>
+</ul>
+
+<hr/>
+
+<h3>2. Fakey (Inside Bar False Break)</h3>
+<ul>
+  <li><strong>Đặc điểm:</strong> Giá phá vỡ Inside Bar nhưng ngay lập tức quay đầu ngược lại mạnh mẽ.</li>
+  <li><strong>Ý nghĩa:</strong> Bẫy giá (Trap). Cá mập quét Stop Loss của những người đánh Breakout sớm rồi đẩy giá đi theo hướng ngược lại.</li>
+  <li><strong>Ứng dụng:</strong> Rất hay dùng trong Price Action nâng cao để bắt các cú False Break.</li>
+</ul>
+
+<hr/>
+
+<h3>3. Marubozu (Nến trọc)</h3>
+<ul>
+  <li><strong>Đặc điểm:</strong> Nến thân dài, gần như không có bóng trên và bóng dưới.</li>
+  <li><strong>Ý nghĩa:</strong> Thể hiện sức mạnh tuyệt đối và sự quyết liệt của phe Mua (nếu nến xanh) hoặc phe Bán (nếu nến đỏ).</li>
+</ul>
+
+<p>📌 <strong>Dùng để:</strong></p>
+<ul>
+  <li>Xác nhận Breakout (phá vỡ cản) uy tín.</li>
+  <li>Giữ lệnh (Hold) tự tin khi thấy nến này xuất hiện trong xu hướng.</li>
+</ul>
+`,
+        level: "ADVANCED",
+        tags: JSON.stringify(["Tiếp diễn", "Inside Bar", "Fakey"]),
+        related: JSON.stringify(["Trend Following", "Breakout"]),
+        created_at: now,
+        updated_at: now,
+      },
+      {
+        id: "candle-indecision",
+        topic: "CANDLESTICKS",
+        title: "Nhóm mô hình nến DO DỰ (Indecision Patterns)",
+        summary:
+          "Thị trường đang nghỉ ngơi hoặc phân vân. Không nên vào lệnh ngay lúc này.",
+        content: `
+<h2>Nhóm mô hình nến DO DỰ (Indecision Patterns)</h2>
+<p>👉 <strong>Mục đích:</strong> Không vào lệnh ngay – dùng để đánh giá tâm lý thị trường.</p>
+<img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=900" alt="Indecision Candlesticks">
+
+<hr/>
+
+<h3>1. Doji</h3>
+<ul>
+  <li><strong>Đặc điểm:</strong> Giá mở cửa và giá đóng cửa xấp xỉ bằng nhau (nhìn như dấu cộng).</li>
+  <li><strong>Ý nghĩa:</strong> Sự cân bằng giữa phe Mua và phe Bán. Không ai thắng thế.</li>
+</ul>
+
+<p>📌 <strong>Cách hiểu đúng:</strong></p>
+<ul>
+  <li>Nếu xuất hiện sau một xu hướng tăng/giảm mạnh → <strong>Cảnh báo đảo chiều</strong> (phe tấn công đã mệt mỏi).</li>
+  <li>Nếu xuất hiện trong vùng Sideway → <strong>Nhiễu</strong> (không có ý nghĩa nhiều).</li>
+</ul>
+
+<hr/>
+
+<h3>2. Spinning Top (Con xoay)</h3>
+<ul>
+  <li><strong>Đặc điểm:</strong> Thân nến nhỏ, bóng trên và bóng dưới dài tương đương nhau.</li>
+  <li><strong>Ý nghĩa:</strong> Thị trường đang phân vân, giằng co mạnh nhưng chưa có kết quả.</li>
+</ul>
+`,
+        level: "BASIC",
+        tags: JSON.stringify(["Doji", "Tâm lý", "Sideway"]),
+        related: JSON.stringify(["Price Action", "Hỗ trợ Kháng cự"]),
+        created_at: now,
+        updated_at: now,
+      },
+      {
+        id: "candle-context",
+        topic: "CANDLESTICKS",
+        title: "Giao dịch mô hình nến theo NGỮ CẢNH (Context Trading)",
+        summary:
+          "Mô hình nến chỉ là chữ cái. Ngữ cảnh mới là câu chuyện. Đọc hiểu câu chuyện đằng sau nến.",
+        content: `
+<h2>Giao dịch mô hình nến theo NGỮ CẢNH (Context Trading)</h2>
+<p>🚨 <strong>Quan trọng nhất – hơn cả việc nhớ tên nến.</strong></p>
+<p>Một sai lầm kinh điển của Newbie là cứ thấy Pin Bar là Buy, thấy Engulfing là Sell. Đây là lý do bạn thua lỗ.</p>
+<img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=900" alt="Context Trading">
+
+<hr/>
+
+<h3>Mô hình nến chỉ có giá trị khi đặt đúng BỐI CẢNH:</h3>
+
+<h4>1. Xu hướng (Trend)</h4>
+<p>Bạn đang trade thuận xu hướng hay ngược xu hướng? Một Pin Bar tăng giá trong Downtrend mạnh thường sẽ bị fail (thất bại).</p>
+
+<h4>2. Key Level (Vùng quan trọng)</h4>
+<p>Mô hình nến có xuất hiện tại Hỗ trợ/Kháng cự, Supply/Demand hay Trendline không? Nếu nó xuất hiện "giữa hư không" (middle of nowhere), hãy bỏ qua.</p>
+
+<h4>3. Cấu trúc thị trường</h4>
+<p>Giá đang tạo HH-HL (Tăng) hay LH-LL (Giảm)? Cấu trúc luôn quan trọng hơn một, hai cây nến đơn lẻ.</p>
+
+<h4>4. Thời điểm (Timing)</h4>
+<p>Nến hình thành vào phiên nào (Á, Âu, Mỹ)? Có tin tức (News) quan trọng sắp ra không?</p>
+
+<hr/>
+
+<h3>Ví dụ thực tế</h3>
+<ul>
+  <li><strong>Bối cảnh Tốt:</strong> Pin Bar tăng giá xuất hiện tại vùng Hỗ trợ cứng, trong một xu hướng Tăng chủ đạo (Pullback). 👉 <strong>Xác suất thắng cao.</strong></li>
+  <li><strong>Bối cảnh Xấu:</strong> Pin Bar tăng giá xuất hiện lơ lửng, ngay dưới vùng Kháng cự mạnh, trong xu hướng Giảm. 👉 <strong>Xác suất thua cao.</strong></li>
+</ul>
+
+<p><em>📌 <strong>Nguyên tắc vàng:</strong> Không trade mô hình nến – hãy trade CÂU CHUYỆN ĐẰNG SAU NẾN.</em></p>
+`,
+        level: "ADVANCED",
+        tags: JSON.stringify(["Tư duy", "Context", "Price Action"]),
+        related: JSON.stringify(["Cấu trúc thị trường", "Xu hướng"]),
         created_at: now,
         updated_at: now,
       },
