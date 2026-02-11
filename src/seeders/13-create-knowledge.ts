@@ -2844,7 +2844,7 @@ Nhật ký giao dịch là nơi ghi lại chi tiết mọi quyết định của
       {
         id: "candle-reversal",
         topic: "CANDLESTICKS",
-        title: "Nhóm mô hình nến ĐẢO CHIỀU (Reversal Patterns)",
+        title: "Hình nến ĐẢO CHIỀU (Reversal Patterns)",
         summary:
           "Các mô hình nến báo hiệu xu hướng có thể thay đổi, thường xuất hiện tại đỉnh hoặc đáy quan trọng.",
         content: `
@@ -2929,7 +2929,7 @@ Nhật ký giao dịch là nơi ghi lại chi tiết mọi quyết định của
       {
         id: "candle-continuation",
         topic: "CANDLESTICKS",
-        title: "Nhóm mô hình nến TIẾP DIỄN (Continuation Patterns)",
+        title:"Hình nến TIẾP DIỄN (Continuation Patterns)",
         summary:
           "Các mô hình báo hiệu xu hướng hiện tại vẫn còn mạnh và sẽ tiếp tục.",
         content: `
@@ -2983,7 +2983,7 @@ Nhật ký giao dịch là nơi ghi lại chi tiết mọi quyết định của
       {
         id: "candle-indecision",
         topic: "CANDLESTICKS",
-        title: "Nhóm mô hình nến DO DỰ (Indecision Patterns)",
+        title: "Hình nến DO DỰ (Indecision Patterns)",
         summary:
           "Thị trường đang nghỉ ngơi hoặc phân vân. Không nên vào lệnh ngay lúc này.",
         content: `

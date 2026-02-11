@@ -53,3 +53,16 @@ export const login = async (req: Request, res: Response) => {
     return InternalServerError(res);
   }
 };
+
+export const loginGoogle = async (req: Request, res: Response) => {
+  try {
+    const { token } = req.body;
+    if (!token) return badRequest("Missing token", res);
+
+    const response = await services.loginGoogle(token);
+    return res.status(200).json(response);
+  } catch (error) {
+    console.log("Login Google Error:", error);
+    return InternalServerError(res);
+  }
+};
