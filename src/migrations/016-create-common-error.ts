@@ -1,7 +1,7 @@
 "use strict";
 
 /** @type {import('sequelize-cli').Migration} */
-export default = {
+export default {
   up: async (queryInterface: any, Sequelize: any) => {
     await queryInterface.createTable("common_errors", {
       id: {
