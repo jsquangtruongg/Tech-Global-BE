@@ -13,6 +13,7 @@ import botOrder from "./botOrder";
 import psychology from "./psychology";
 import myDiary from "./My-Diary";
 import knowledge from "./knowledge";
+import commonError from "./common-error";
 import express from "express";
 
 const initRoutes = (app: express.Express) => {
@@ -31,6 +32,7 @@ const initRoutes = (app: express.Express) => {
   app.use("/api/v1/psychology", psychology);
   app.use("/api/v1/my-diary", myDiary);
   app.use("/api/v1/knowledge", knowledge);
+  app.use("/api/v1/common-errors", commonError);
 };
 
 export default initRoutes;

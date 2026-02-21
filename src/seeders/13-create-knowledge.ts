@@ -2840,11 +2840,11 @@ Nhật ký giao dịch là nơi ghi lại chi tiết mọi quyết định của
         created_at: now,
         updated_at: now,
       },
-      
+
       {
         id: "candle-reversal",
         topic: "CANDLESTICKS",
-        title: "Nhóm mô hình nến ĐẢO CHIỀU (Reversal Patterns)",
+        title: "Hình nến ĐẢO CHIỀU (Reversal Patterns)",
         summary:
           "Các mô hình nến báo hiệu xu hướng có thể thay đổi, thường xuất hiện tại đỉnh hoặc đáy quan trọng.",
         content: `
@@ -2929,23 +2929,25 @@ Nhật ký giao dịch là nơi ghi lại chi tiết mọi quyết định của
       {
         id: "candle-continuation",
         topic: "CANDLESTICKS",
-        title: "Nhóm mô hình nến TIẾP DIỄN (Continuation Patterns)",
+        title: "Hình nến TIẾP DIỄN (Continuation Patterns)",
         summary:
           "Các mô hình báo hiệu xu hướng hiện tại vẫn còn mạnh và sẽ tiếp tục.",
         content: `
 <h2>Nhóm mô hình nến TIẾP DIỄN (Continuation Patterns)</h2>
 <p>👉 <strong>Mục đích:</strong> Dùng để đi theo xu hướng (Trend Following), không phải để bắt đỉnh đáy.</p>
-<img src="https://images.unsplash.com/photo-1611974765270-ca1258634369?auto=format&fit=crop&w=900" alt="Candlestick Continuation Patterns">
+<img src="https://dautuhanghoa.vn/wp-content/uploads/2020/08/luu-ban-nhap-tu-dong-9181-5.jpg" alt="Candlestick Continuation Patterns">
 
 <hr/>
 
 <h3>1. Inside Bar (Nến nằm trong)</h3>
+<img src="https://ftmo-frontend-prod.storage.googleapis.com/wp-content/uploads/2025/08/04115053/Insider-bar-1030x564-1.png" alt="Inside Bar">
 <ul>
   <li><strong>Đặc điểm:</strong> Nến sau (Mother Bar) nằm hoàn toàn trong phạm vi High-Low của nến trước.</li>
   <li><strong>Ý nghĩa:</strong> Thể hiện sự tích lũy, nén giá của thị trường sau một đợt chạy mạnh. Lò xo đang được nén lại để chuẩn bị bung ra.</li>
 </ul>
 
 <p>📌 <strong>Cách trade phổ biến:</strong></p>
+<img src="https://blog.elearnmarkets.com/wp-content/uploads/2018/09/Image1.png" alt="Inside Bar Trade">
 <ul>
   <li>Đặt lệnh chờ (Stop Order) khi giá phá vỡ (Breakout) khỏi High hoặc Low của Mother Bar.</li>
   <li>Chỉ trade theo hướng của xu hướng chính (Trend).</li>
@@ -2954,6 +2956,8 @@ Nhật ký giao dịch là nơi ghi lại chi tiết mọi quyết định của
 <hr/>
 
 <h3>2. Fakey (Inside Bar False Break)</h3>
+<img src="https://saigontradecoin.com/wp-content/uploads/2022/12/fakey-pattern-with-false-breakout.jpg" alt="Fakey">
+
 <ul>
   <li><strong>Đặc điểm:</strong> Giá phá vỡ Inside Bar nhưng ngay lập tức quay đầu ngược lại mạnh mẽ.</li>
   <li><strong>Ý nghĩa:</strong> Bẫy giá (Trap). Cá mập quét Stop Loss của những người đánh Breakout sớm rồi đẩy giá đi theo hướng ngược lại.</li>
@@ -2963,6 +2967,8 @@ Nhật ký giao dịch là nơi ghi lại chi tiết mọi quyết định của
 <hr/>
 
 <h3>3. Marubozu (Nến trọc)</h3>
+<img src="https://blog.binomo.com/wp-content/uploads/2023/04/image-54.png" alt="Marubozu">
+
 <ul>
   <li><strong>Đặc điểm:</strong> Nến thân dài, gần như không có bóng trên và bóng dưới.</li>
   <li><strong>Ý nghĩa:</strong> Thể hiện sức mạnh tuyệt đối và sự quyết liệt của phe Mua (nếu nến xanh) hoặc phe Bán (nếu nến đỏ).</li>
@@ -2983,7 +2989,7 @@ Nhật ký giao dịch là nơi ghi lại chi tiết mọi quyết định của
       {
         id: "candle-indecision",
         topic: "CANDLESTICKS",
-        title: "Nhóm mô hình nến DO DỰ (Indecision Patterns)",
+        title: "Hình nến DO DỰ (Indecision Patterns)",
         summary:
           "Thị trường đang nghỉ ngơi hoặc phân vân. Không nên vào lệnh ngay lúc này.",
         content: `
@@ -3029,7 +3035,7 @@ Nhật ký giao dịch là nơi ghi lại chi tiết mọi quyết định của
 <h2>Giao dịch mô hình nến theo NGỮ CẢNH (Context Trading)</h2>
 <p>🚨 <strong>Quan trọng nhất – hơn cả việc nhớ tên nến.</strong></p>
 <p>Một sai lầm kinh điển của Newbie là cứ thấy Pin Bar là Buy, thấy Engulfing là Sell. Đây là lý do bạn thua lỗ.</p>
-<img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=900" alt="Context Trading">
+<img src="https://gldt.mql5.vn/2025/04/Cach-doc-mo-hinh-nen-Nhat.jpg" alt="Context Trading">
 
 <hr/>
 
@@ -3037,15 +3043,19 @@ Nhật ký giao dịch là nơi ghi lại chi tiết mọi quyết định của
 
 <h4>1. Xu hướng (Trend)</h4>
 <p>Bạn đang trade thuận xu hướng hay ngược xu hướng? Một Pin Bar tăng giá trong Downtrend mạnh thường sẽ bị fail (thất bại).</p>
+<img src="https://gldt.mql5.vn/2025/10/maxresdefault.jpg" alt="trend">
 
 <h4>2. Key Level (Vùng quan trọng)</h4>
 <p>Mô hình nến có xuất hiện tại Hỗ trợ/Kháng cự, Supply/Demand hay Trendline không? Nếu nó xuất hiện "giữa hư không" (middle of nowhere), hãy bỏ qua.</p>
+<img src="https://happy.live/wp-content/uploads/2019/09/2019.09.09-chung-khoan-a-b-c-ho-tro-khang-cu-happy-live-768x459.jpg" alt="Hỗ trợ">
+
 
 <h4>3. Cấu trúc thị trường</h4>
 <p>Giá đang tạo HH-HL (Tăng) hay LH-LL (Giảm)? Cấu trúc luôn quan trọng hơn một, hai cây nến đơn lẻ.</p>
-
+<img src="https://traderptkt.com/wp-content/uploads/2023/05/Cau-truc-thi-truong-tang.png" alt="cấu trúc nến"/>
 <h4>4. Thời điểm (Timing)</h4>
 <p>Nến hình thành vào phiên nào (Á, Âu, Mỹ)? Có tin tức (News) quan trọng sắp ra không?</p>
+<img src="https://res.cloudinary.com/dq4basktt/image/upload/v1770796182/Thi%E1%BA%BFt_k%E1%BA%BF_ch%C6%B0a_c%C3%B3_t%C3%AAn_woxi5p.png" alt="Timing"/>
 
 <hr/>
 
@@ -3060,6 +3070,220 @@ Nhật ký giao dịch là nơi ghi lại chi tiết mọi quyết định của
         level: "ADVANCED",
         tags: JSON.stringify(["Tư duy", "Context", "Price Action"]),
         related: JSON.stringify(["Cấu trúc thị trường", "Xu hướng"]),
+        created_at: now,
+        updated_at: now,
+      },
+      {
+        id: "pattern-bullish-engulfing",
+        topic: "CANDLESTICKS",
+        title: "Mô hình Bullish Engulfing (Nhấn chìm tăng)",
+        summary:
+          "Tín hiệu đảo chiều tăng mạnh mẽ, thường xuất hiện cuối xu hướng giảm.",
+        content: `
+<h2>Mô hình Bullish Engulfing (Nhấn chìm tăng)</h2>
+<p>Đây là một trong những mô hình đảo chiều mạnh mẽ và phổ biến nhất.</p>
+<h3>1. Đặc điểm nhận dạng</h3>
+<ul>
+  <li>Xuất hiện ở đáy một xu hướng giảm (Downtrend) hoặc vùng hỗ trợ.</li>
+  <li>Gồm 2 nến:
+    <ul>
+      <li>Nến 1: Nến giảm (đỏ) nhỏ.</li>
+      <li>Nến 2: Nến tăng (xanh) mạnh, có thân nến <strong>bao trùm toàn bộ</strong> thân nến 1.</li>
+    </ul>
+  </li>
+</ul>
+<h3>2. Ý nghĩa tâm lý</h3>
+<p>Phe bán cố gắng đẩy giá xuống nhưng thất bại. Phe mua lao vào mạnh mẽ, "nhấn chìm" hoàn toàn nỗ lực của phe bán, báo hiệu sự đảo chiều.</p>
+`,
+        level: "BASIC",
+        tags: JSON.stringify(["Đảo chiều", "Tăng giá", "Engulfing"]),
+        related: JSON.stringify(["Bearish Engulfing", "Hỗ trợ Kháng cự"]),
+        created_at: now,
+        updated_at: now,
+      },
+      {
+        id: "pattern-bearish-engulfing",
+        topic: "CANDLESTICKS",
+        title: "Mô hình Bearish Engulfing (Nhấn chìm giảm)",
+        summary:
+          "Tín hiệu đảo chiều giảm mạnh mẽ, thường xuất hiện cuối xu hướng tăng.",
+        content: `
+<h2>Mô hình Bearish Engulfing (Nhấn chìm giảm)</h2>
+<p>Mô hình đối nghịch với Bullish Engulfing, báo hiệu phe bán đã kiểm soát tình hình.</p>
+<h3>1. Đặc điểm nhận dạng</h3>
+<ul>
+  <li>Xuất hiện ở đỉnh một xu hướng tăng (Uptrend) hoặc vùng kháng cự.</li>
+  <li>Gồm 2 nến:
+    <ul>
+      <li>Nến 1: Nến tăng (xanh) nhỏ.</li>
+      <li>Nến 2: Nến giảm (đỏ) mạnh, có thân nến <strong>bao trùm toàn bộ</strong> thân nến 1.</li>
+    </ul>
+  </li>
+</ul>
+<h3>2. Ý nghĩa tâm lý</h3>
+<p>Phe mua kiệt sức. Phe bán tấn công mạnh mẽ và áp đảo hoàn toàn, đẩy giá đóng cửa thấp hơn cả mức mở cửa của phiên trước.</p>
+`,
+        level: "BASIC",
+        tags: JSON.stringify(["Đảo chiều", "Giảm giá", "Engulfing"]),
+        related: JSON.stringify(["Bullish Engulfing", "Hỗ trợ Kháng cự"]),
+        created_at: now,
+        updated_at: now,
+      },
+      {
+        id: "pattern-hammer",
+        topic: "CANDLESTICKS",
+        title: "Mô hình Hammer (Cây Búa)",
+        summary: "Nến đơn báo hiệu đáy tiềm năng với bóng nến dưới dài.",
+        content: `
+<h2>Mô hình Hammer (Cây Búa)</h2>
+<h3>1. Đặc điểm nhận dạng</h3>
+<ul>
+  <li>Thân nến nhỏ, nằm ở phía trên.</li>
+  <li>Bóng nến dưới dài (ít nhất gấp 2 lần thân nến).</li>
+  <li>Bóng trên rất ngắn hoặc không có.</li>
+  <li>Xuất hiện sau một đợt giảm giá.</li>
+</ul>
+<h3>2. Ý nghĩa</h3>
+<p>Thị trường đã từ chối mức giá thấp. Phe bán đẩy giá xuống nhưng phe mua đã đẩy ngược lên đóng cửa gần mức cao nhất.</p>
+`,
+        level: "BASIC",
+        tags: JSON.stringify(["Đảo chiều", "Pin Bar", "Tăng giá"]),
+        related: JSON.stringify(["Shooting Star", "Hỗ trợ Kháng cự"]),
+        created_at: now,
+        updated_at: now,
+      },
+      {
+        id: "pattern-shooting-star",
+        topic: "CANDLESTICKS",
+        title: "Mô hình Shooting Star (Sao Băng)",
+        summary: "Nến đơn báo hiệu đỉnh tiềm năng với bóng nến trên dài.",
+        content: `
+<h2>Mô hình Shooting Star (Sao Băng)</h2>
+<h3>1. Đặc điểm nhận dạng</h3>
+<ul>
+  <li>Thân nến nhỏ, nằm ở phía dưới.</li>
+  <li>Bóng nến trên dài (ít nhất gấp 2 lần thân nến).</li>
+  <li>Bóng dưới rất ngắn hoặc không có.</li>
+  <li>Xuất hiện sau một đợt tăng giá.</li>
+</ul>
+<h3>2. Ý nghĩa</h3>
+<p>Bẫy giá tăng (Bull trap). Phe mua cố đẩy giá lên nhưng gặp lực bán mạnh, đẩy giá đóng cửa thấp.</p>
+`,
+        level: "BASIC",
+        tags: JSON.stringify(["Đảo chiều", "Pin Bar", "Giảm giá"]),
+        related: JSON.stringify(["Hammer", "Hỗ trợ Kháng cự"]),
+        created_at: now,
+        updated_at: now,
+      },
+      {
+        id: "pattern-doji",
+        topic: "CANDLESTICKS",
+        title: "Mô hình Doji (Lưỡng lự)",
+        summary: "Thể hiện sự cân bằng và do dự của thị trường.",
+        content: `
+<h2>Mô hình Doji</h2>
+<h3>1. Đặc điểm nhận dạng</h3>
+<ul>
+  <li>Giá mở cửa và giá đóng cửa xấp xỉ bằng nhau.</li>
+  <li>Nhìn giống dấu cộng (+) hoặc chữ thập.</li>
+</ul>
+<h3>2. Ý nghĩa</h3>
+<p>Sự do dự (Indecision). Không phe nào kiểm soát thị trường. Thường báo hiệu sự chững lại của xu hướng hiện tại.</p>
+<p>👉 <strong>Lưu ý:</strong> Cần đợi nến tiếp theo xác nhận hướng đi.</p>
+`,
+        level: "BASIC",
+        tags: JSON.stringify(["Doji", "Sideway", "Lưỡng lự"]),
+        related: JSON.stringify(["Spinning Top", "Price Action"]),
+        created_at: now,
+        updated_at: now,
+      },
+      {
+        id: "pattern-morning-star",
+        topic: "CANDLESTICKS",
+        title: "Mô hình Morning Star (Sao Mai)",
+        summary: "Bộ 3 nến đảo chiều tăng giá tại đáy.",
+        content: `
+<h2>Mô hình Morning Star (Sao Mai)</h2>
+<p>Bộ 3 nến kinh điển báo hiệu bình minh (sự tăng giá) đang đến.</p>
+<h3>1. Cấu tạo</h3>
+<ul>
+  <li>Nến 1: Nến giảm mạnh (đỏ).</li>
+  <li>Nến 2: Nến thân nhỏ (Doji hoặc Spinning Top), thể hiện sự lưỡng lự.</li>
+  <li>Nến 3: Nến tăng mạnh (xanh), đóng cửa cao hơn 50% nến 1.</li>
+</ul>
+<h3>2. Ý nghĩa</h3>
+<p>Phe bán kiệt sức (nến 2), phe mua quay lại kiểm soát (nến 3).</p>
+`,
+        level: "ADVANCED",
+        tags: JSON.stringify(["Đảo chiều", "Tăng giá", "3 nến"]),
+        related: JSON.stringify(["Evening Star", "Reversal"]),
+        created_at: now,
+        updated_at: now,
+      },
+      {
+        id: "pattern-evening-star",
+        topic: "CANDLESTICKS",
+        title: "Mô hình Evening Star (Sao Hôm)",
+        summary: "Bộ 3 nến đảo chiều giảm giá tại đỉnh.",
+        content: `
+<h2>Mô hình Evening Star (Sao Hôm)</h2>
+<p>Bộ 3 nến báo hiệu hoàng hôn (sự giảm giá) sắp bao trùm.</p>
+<h3>1. Cấu tạo</h3>
+<ul>
+  <li>Nến 1: Nến tăng mạnh (xanh).</li>
+  <li>Nến 2: Nến thân nhỏ, nằm cách biệt hoặc cao hơn.</li>
+  <li>Nến 3: Nến giảm mạnh (đỏ), đóng cửa thấp hơn 50% nến 1.</li>
+</ul>
+<h3>2. Ý nghĩa</h3>
+<p>Phe mua mất đà, phe bán chiếm lại ưu thế.</p>
+`,
+        level: "ADVANCED",
+        tags: JSON.stringify(["Đảo chiều", "Giảm giá", "3 nến"]),
+        related: JSON.stringify(["Morning Star", "Reversal"]),
+        created_at: now,
+        updated_at: now,
+      },
+      {
+        id: "pattern-three-white-soldiers",
+        topic: "CANDLESTICKS",
+        title: "Mô hình 3 Chàng Lính Trắng (Three White Soldiers)",
+        summary: "3 nến tăng liên tiếp xác nhận lực mua mạnh mẽ.",
+        content: `
+<h2>Mô hình Three White Soldiers</h2>
+<h3>1. Đặc điểm</h3>
+<ul>
+  <li>3 nến tăng (xanh) liên tiếp.</li>
+  <li>Mỗi nến đều đóng cửa cao hơn nến trước.</li>
+  <li>Thân nến dài, bóng nến ngắn.</li>
+</ul>
+<h3>2. Ý nghĩa</h3>
+<p>Xác nhận xu hướng tăng cực mạnh. Thường xuất hiện sau khi giá phá vỡ vùng tích lũy hoặc đảo chiều từ đáy.</p>
+`,
+        level: "ADVANCED",
+        tags: JSON.stringify(["Tiếp diễn", "Tăng giá", "Momentum"]),
+        related: JSON.stringify(["Three Black Crows", "Trend"]),
+        created_at: now,
+        updated_at: now,
+      },
+      {
+        id: "pattern-three-black-crows",
+        topic: "CANDLESTICKS",
+        title: "Mô hình 3 Con Quạ Đen (Three Black Crows)",
+        summary: "3 nến giảm liên tiếp xác nhận lực bán mạnh mẽ.",
+        content: `
+<h2>Mô hình Three Black Crows</h2>
+<h3>1. Đặc điểm</h3>
+<ul>
+  <li>3 nến giảm (đỏ) liên tiếp.</li>
+  <li>Mỗi nến đều đóng cửa thấp hơn nến trước.</li>
+  <li>Thân nến dài, bóng nến ngắn.</li>
+</ul>
+<h3>2. Ý nghĩa</h3>
+<p>Xác nhận xu hướng giảm cực mạnh. Phe bán đang xả hàng quyết liệt.</p>
+`,
+        level: "ADVANCED",
+        tags: JSON.stringify(["Tiếp diễn", "Giảm giá", "Momentum"]),
+        related: JSON.stringify(["Three White Soldiers", "Trend"]),
         created_at: now,
         updated_at: now,
       },

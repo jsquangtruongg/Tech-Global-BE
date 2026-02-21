@@ -1,6 +1,123 @@
 import db from "../models";
 import { Op, Sequelize } from "sequelize";
 import axios from "axios";
+import { parseStringPromise } from "xml2js";
+
+let cachedCalendarData: any[] = [];
+let lastCalendarFetchTime = 0;
+const CALENDAR_CACHE_DURATION = 60 * 60 * 1000; 
+
+export const getEconomicCalendar = () =>
+  new Promise(async (resolve, reject) => {
+    try {
+      const currentTime = Date.now();
+
+      if (
+        cachedCalendarData.length > 0 &&
+        currentTime - lastCalendarFetchTime < CALENDAR_CACHE_DURATION
+      ) {
+        return resolve({
+          err: 0,
+          mess: "Lấy lịch kinh tế thành công (Cache)",
+          data: cachedCalendarData,
+        });
+      }
+
+      const url = "https://nfs.faireconomy.media/ff_calendar_thisweek.xml";
+      const { data } = await axios.get(url, {
+        headers: {
+          "User-Agent":
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+        },
+      });
+      const result = await parseStringPromise(data);
+
+      if (!result || !result.weeklyevents || !result.weeklyevents.event) {
+        throw new Error("Invalid XML structure from ForexFactory");
+      }
+
+      const events = result.weeklyevents.event.map((e: any) => ({
+        title: e.title?.[0],
+        country: e.country?.[0],
+        date: e.date?.[0],
+        time: e.time?.[0],
+        impact: e.impact?.[0],
+        forecast: e.forecast?.[0],
+        previous: e.previous?.[0],
+      }));
+
+      const relevantEvents = events.filter((e: any) => {
+        const country = e.country || "";
+        const impact = e.impact || "";
+
+        const isUSD = country.toUpperCase() === "USD";
+        const impactLower = impact.toLowerCase();
+        const isHighOrMedium =
+          impactLower.includes("high") || impactLower.includes("medium");
+
+        return isUSD && isHighOrMedium;
+      });
+
+      relevantEvents.sort((a: any, b: any) => {
+        const dateA = new Date(`${a.date} ${a.time}`);
+        const dateB = new Date(`${b.date} ${b.time}`);
+        return dateA.getTime() - dateB.getTime();
+      });
+
+      const translatedEvents = await Promise.all(
+        relevantEvents.map(async (item: any) => {
+          try {
+            const res = await axios.get(
+              "https://translate.googleapis.com/translate_a/single",
+              {
+                params: {
+                  client: "gtx",
+                  sl: "en",
+                  tl: "vi",
+                  dt: "t",
+                  q: item.title || "",
+                },
+              },
+            );
+            const text =
+              Array.isArray(res.data) &&
+              Array.isArray(res.data[0]) &&
+              Array.isArray(res.data[0][0])
+                ? res.data[0][0][0]
+                : item.title;
+            return { ...item, title: text };
+          } catch {
+            return item;
+          }
+        }),
+      );
+
+      cachedCalendarData = translatedEvents;
+      lastCalendarFetchTime = currentTime;
+
+      resolve({
+        err: 0,
+        mess: "Lấy lịch kinh tế thành công",
+        data: translatedEvents,
+      });
+    } catch (error) {
+      console.error("Error in getEconomicCalendar:", error);
+
+      if (cachedCalendarData.length > 0) {
+        return resolve({
+          err: 0,
+          mess: "Lấy lịch kinh tế từ cache (Fallback do lỗi)",
+          data: cachedCalendarData,
+        });
+      }
+
+      resolve({
+        err: 1,
+        mess: "Lỗi khi lấy lịch kinh tế",
+        data: [],
+      });
+    }
+  });
 
 export const getDashboardData = () =>
   new Promise(async (resolve, reject) => {
@@ -140,7 +257,7 @@ export const getGoldNews = () =>
                   dt: "t",
                   q: item.title || "",
                 },
-              }
+              },
             );
             const text =
               Array.isArray(res.data) &&
@@ -152,7 +269,7 @@ export const getGoldNews = () =>
           } catch {
             return { ...item, titleVi: item.title };
           }
-        })
+        }),
       );
 
       resolve({
